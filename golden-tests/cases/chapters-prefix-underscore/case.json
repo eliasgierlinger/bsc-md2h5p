@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Prefix Underscore",
+  "note": "BookFromFiles: the title-prefix regex eats the digit and the separator, so \"1_Intro.md\" becomes \"Intro\" and not \" Intro\"."
+}

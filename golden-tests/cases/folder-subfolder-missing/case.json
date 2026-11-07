@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Folder Subfolder Missing",
+  "subfolder": "doesnotexist",
+  "note": "ChapterFolderResolver: nonexistent subfolder falls back to auto-detection"
+}

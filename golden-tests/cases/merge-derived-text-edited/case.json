@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Derived Text Edited",
+  "mergeWith": "edited",
+  "note": "A block that came from Markdown was edited in H5P, and the Markdown changed it too - case 4 of D28's table. The Markdown is the source of the text (D26), so the converted version wins and the edit is reported as overwritten - the one place where the merge knowingly discards somebody's work, which is why it says so rather than doing it quietly. merge-derived-text-edited-in-h5p-only is case 3, where only the editor touched it, and the outcome is deliberately identical: one rule, not two."
+}

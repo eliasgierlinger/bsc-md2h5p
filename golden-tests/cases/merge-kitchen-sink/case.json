@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Kitchen Sink",
+  "mergeWith": "edited",
+  "note": "Every hard thing at once, the way kitchen-sink is for rendering: a chapter renamed and re-headed and half rewritten, a block split by a new image in the same round its anchor table is deleted, a generated paragraph deleted by hand in the editor, two near-identical paragraphs swapped in the Markdown with a quiz under each, a chapter deleted from the Markdown, a chapter added to it, an addition before the first block of the book, an addition at the end of a chapter, and a chapter added in H5P after the one the Markdown deletes. It exists to be opened in a player and to be the one place where the degradations are visible together - it therefore diffs on almost any change to merge/, and the narrow cases are what pin the individual behaviours. Read its warnings.txt as part of the case: three of the four things that go wrong here say so, and the fourth - the swapped quizzes - is the one that cannot, which is why it is written up in D28's cost list rather than fixed."
+}

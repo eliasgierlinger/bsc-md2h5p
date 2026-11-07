@@ -1,0 +1,1 @@
+A table contains an image, which H5P cannot show inside a table. The table was rebuilt as a row layout so the image can be shown; it is no longer a single editable H5P table.

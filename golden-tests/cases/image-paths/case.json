@@ -1,0 +1,5 @@
+{
+  "mode": "upload",
+  "title": "Image Paths",
+  "note": "Covers ImageResolver/PathSecurity path-resolution locations under the restricted (upload) policy: a subfolder-of-the-chapter-folder image, a sibling-folder image reached via ../ that stays inside the root dir, two different files that share a file name in different folders (must not collide), and the same file referenced twice with different spellings (must be packed once)."
+}

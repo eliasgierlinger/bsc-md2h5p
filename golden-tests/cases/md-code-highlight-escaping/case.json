@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Code Highlight Escaping",
+  "note": "md-code-fenced-escaping pins escaping in an unhighlighted block; this one pins it inside a colored span, where the text is escaped after the span is opened and the `<`, `>`, `&` and `\"` must never reach the markup raw. The string literal holds all four, and the comment holds a `</span>` that would close the span it sits in if it were not escaped. The HTML block additionally puts markup inside markup: MARKUP_TAG_* spans around tag delimiters that are themselves escaped entities."
+}

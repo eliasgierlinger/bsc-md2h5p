@@ -1,0 +1,1 @@
+Some Markdown files are numbered and some are not: notes.md has no number and is placed after the numbered chapters.

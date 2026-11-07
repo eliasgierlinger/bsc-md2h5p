@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Not Numbered 2 3",
+  "note": "BookFromFiles: a book that starts at 2_ is numbered too - the check is for any leading digit, not for a leading 1."
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Block Split Midchapter",
+  "mergeWith": "edited",
+  "note": "A quiz was placed under a chapter's text in H5P, and there is a table below it - so the quiz sits in the middle of the chapter and the end-of-chapter rule that answers merge-image-appended does not apply. The Markdown then puts an image into the middle of that text, so the one block it came from becomes text, image, text. The quiz has to end up after the *last* piece of that run and still above the table, which is what the forward walk in anchorEnds is for: it steps over the image, which resembles nothing, reaches the second half, which resembles the original, and stops at the table because another block claimed it. merge-block-split is the same split at the end of a chapter, where the simpler rule reaches the same answer first; this case is the one that exercises the walk itself."
+}

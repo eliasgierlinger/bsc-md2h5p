@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Footnote Image In Body",
+  "note": "MarkdownChunker.visit(Image) inside a footnote definition body: the list is interrupted and the image becomes its own content block between the two halves. With a single footnote the second half restarts at <ol start=\"1\"> - footnote-image-mid-list covers the continuing numbering."
+}

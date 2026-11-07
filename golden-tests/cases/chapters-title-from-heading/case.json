@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Title From Heading",
+  "note": "BookFromFiles: chapter title comes from a leading heading, from a heading after YAML front matter, or falls back to the file name when the file does not start with one."
+}

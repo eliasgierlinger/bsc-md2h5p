@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Custom Choice Rejected",
+  "note": "Everything CustomRenderer refuses, and what it does instead: no answers, one answer, an empty block, and no answer marked correct. Each becomes a plain code block plus a warning - warn and skip, the way a bad image path does. Read warnings.txt as the case. The fallback deliberately renders WITHOUT the info string, so the code highlighter does not add a second warning saying \"singlechoice\" is not a language it knows."
+}

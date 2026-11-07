@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Table Interrupts Text",
+  "note": "Covers flushTextBuffer() being called before a table so surrounding paragraphs and the table become separate content blocks."
+}

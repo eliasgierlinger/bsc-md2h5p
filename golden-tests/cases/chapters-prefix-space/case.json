@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Prefix Space",
+  "note": "BookFromFiles: title-prefix regex on \"1 Intro.md\" strips the digit and the following space, leaving a clean title"
+}

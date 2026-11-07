@@ -1,0 +1,3 @@
+"H5P.Column 1.22" accepts "H5P.Row 1.3", so the book's "H5P.Row 1.0" blocks are declared as 1.3 - H5P drops a block built on any other version than the one its container names.
+A table contains an image, which H5P cannot show inside a table. The table was rebuilt as a row layout so the image can be shown; it is no longer a single editable H5P table.
+The uploaded package was saved by an H5P that ships other versions of H5P.Row 1.3 -> 1.0, H5P.RowColumn 1.3 -> 1.0. The merged book is built on the uploaded package's versions, since that is what the blocks added there need. Content upgrade scripts that these libraries may define are not run.

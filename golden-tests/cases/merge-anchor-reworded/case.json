@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Anchor Reworded",
+  "mergeWith": "edited",
+  "note": "The block the quiz followed was rewritten in the Markdown - half its words are different, so its hash is long gone. Alignment recognizes it by content anyway (D28) and the quiz keeps its place with no warning at all. This is the case the exact-hash version got wrong, and the one that matters most in practice: fixing the wording of a paragraph must not move the quiz under it. It also pins roughly where Similarity.MATCH sits - the rewrite scores around 0.5."
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Math Delimiters",
+  "note": "What is rewritten and what is not (D21). `$...$` is parsed by MathInlineParser and written back as \\(...\\), because H5P.MathDisplay's addTo regex does not recognize a single `$`; `$$...$$` is parsed too - otherwise `_` and `*` inside it become emphasis - but written back unchanged, since both MathDisplay and every Markdown editor already read it. `\\(...\\)` and `\\[...\\]` in the source are left to commonmark's backslash escaping and come out as literal `(` and `[`, because no Markdown editor renders them as math either, so an author who typed them meant brackets. The multi-line `$$` block is one paragraph, so Scanner crosses the line breaks. Math is inline content, so it needs no extra work to appear in a table cell or a footnote body. Nothing renders unless an admin installed the addon."
+}

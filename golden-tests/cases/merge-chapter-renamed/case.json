@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Chapter Renamed",
+  "mergeWith": "edited",
+  "note": "The Markdown file behind a chapter was renamed *and* its heading changed in the same round, so neither the source file nor the title matches. Before D28 that read as one chapter deleted and another added, and the quiz inside it was stranded in a rump chapter at the end of the book. The third tier of chapterScore compares the chapters' text, so the chapter is recognized and the quiz stays inside it. The rump chapter is still what happens when the file is really gone - merge-chapter-gone-from-markdown."
+}

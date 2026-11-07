@@ -1,0 +1,1 @@
+Raw HTML uses <b>, which H5P does not support in a text block. The tag is removed when the book is displayed, its text content is kept.

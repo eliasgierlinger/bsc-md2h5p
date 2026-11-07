@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Folder Subfolder Valid",
+  "subfolder": "chapters",
+  "note": "ChapterFolderResolver: explicit valid subfolder skips auto-detection entirely"
+}

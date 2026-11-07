@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Anchor Edited",
+  "mergeWith": "edited",
+  "note": "The block the quiz followed - the table - was edited in the Markdown, so its hash is gone. Since D28 that is no longer enough to lose it: alignment recognizes the table by its content, the quiz keeps its exact place, and nothing is warned about because nothing was lost. Case 2 of D28's table, and the single most important behavior of the whole feature - a typo fix in the Markdown must not move what a teacher put underneath it. The exact-hash version placed the quiz one block early and warned; merge-anchor-removed is what still exercises that fallback."
+}

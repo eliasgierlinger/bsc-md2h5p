@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Image Appended",
+  "mergeWith": "edited",
+  "note": "The Markdown appends an image at the very end of a chapter whose text a quiz was placed under in H5P. The quiz followed the last block that came from Markdown, so it was at the end of the chapter; the question is whether it still is once the Markdown puts something after that block. It is: an addition that came last stays last, the same rule and for the same reason as an addition that came first staying first (merge-addition-first-block). Anchoring it to the text instead would slide the picture below the quiz, which is not where either of the two people involved put it."
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Missing",
+  "note": "Covers the two ways an image reference can fail to resolve: a destination pointing at a file that doesn't exist (ImageResolver/PathSecurity 'could not be found' warning), and an image with an empty destination (MarkdownChunker's own 'missing destination' warning). Neither image should appear in the output."
+}

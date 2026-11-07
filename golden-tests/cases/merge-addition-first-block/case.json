@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Addition First Block",
+  "mergeWith": "edited",
+  "note": "A quiz that sat at the very top of a chapter, before any Markdown block, while the first block itself was rewritten. Sitting before everything is a position of its own rather than a failed search, so it stays first and there is no warning - the counterpart to merge-anchor-edited."
+}

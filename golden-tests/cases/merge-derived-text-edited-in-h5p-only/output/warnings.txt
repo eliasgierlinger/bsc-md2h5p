@@ -1,0 +1,1 @@
+A text block of chapter "Practice" looks like it was edited in H5P. The Markdown is the source of that text, so the converted version was used instead and the H5P edit is lost.

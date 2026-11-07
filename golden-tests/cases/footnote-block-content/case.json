@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Footnote Block Content",
+  "note": "Covers a footnote definition whose body is more than a single inline run: a leading paragraph, a bullet list, and a second paragraph, all indented as continuation lines of the same [^detailed] definition."
+}

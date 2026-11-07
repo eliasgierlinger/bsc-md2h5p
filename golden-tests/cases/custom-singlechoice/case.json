@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Custom Single Choice",
+  "note": "The singlechoice fenced block, which CustomRenderer turns into an H5P.SingleChoiceSet. Pins the shape the library actually reads: the correct answer is written FIRST in the answers list, because single-choice.js marks entry zero correct and then shuffles for display - so the author's order is not what the reader sees, and the position of the * in the Markdown does not show up in the output at all."
+}

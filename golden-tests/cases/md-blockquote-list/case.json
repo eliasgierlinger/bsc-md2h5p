@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Blockquote List",
+  "note": "visit(BlockQuote) containing a visit(BulletList): a blockquote whose body is a bullet list rather than plain paragraphs."
+}

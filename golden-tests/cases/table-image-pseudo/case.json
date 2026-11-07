@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Table Image Pseudo",
+  "note": "TableRenderer.renderAsRows: a 3-column table holding an image is rebuilt as one H5P.Row per row, each cell a H5P.RowColumn. The cell with text + image + text becomes three stacked contents; every other cell is a one-cell H5P.Table. Pins the borderless look (D11): cells carry padding and, in the header, a background, but no border - H5P.RowColumn insets a table child by 1em and an image child not at all, so a box would stop where the picture starts. The row boundary is `useSeparator: \"enabled\"` on every row but the first, which makes the enclosing H5P.Column draw a full-width ruler instead. Also pins the flattened RowColumn params: the elements sit directly in `content`, not wrapped in a `{ \"content\": ... }` object the way H5P.Column's are."
+}

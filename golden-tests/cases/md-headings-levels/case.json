@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Headings Levels",
+  "note": "All ATX heading levels h1..h6; visit(Heading) shifts every level down one and clamps at h3, because h2 and h3 are the only headings AdvancedText allows."
+}

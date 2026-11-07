@@ -1,0 +1,2 @@
+Image "b.svg" is a .svg file and was skipped: H5P packages only accept .png, .jpg, .jpeg, .gif, .bmp, .tif, .tiff (webp and svg are rejected).
+Image "c.webp" is a .webp file and was skipped: H5P packages only accept .png, .jpg, .jpeg, .gif, .bmp, .tif, .tiff (webp and svg are rejected).

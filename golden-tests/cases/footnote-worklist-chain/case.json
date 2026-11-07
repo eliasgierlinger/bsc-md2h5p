@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Footnote Worklist Chain",
+  "note": "Covers the worklist loop in renderFootnotesSection(): the only referenced footnote's body itself references a second footnote that is not referenced anywhere else in the chapter, so that second footnote's number/rendering only get discovered while rendering the first one's body."
+}

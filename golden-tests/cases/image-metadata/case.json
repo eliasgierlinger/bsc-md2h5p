@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Metadata",
+  "note": "Covers image title/alt-text/attribute handling in MarkdownChunker.visit(Image): a title attribute, alt text containing inline formatting (rendered as plain text), empty alt text, valid width/height attributes, and a non-numeric width that must fall back to the default. Also that interrupting the text for an image leaves no empty element behind."
+}

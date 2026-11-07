@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Code Highlight Unknown Language",
+  "note": "A fence naming a language the highlighter does not know warns once per language, not once per block: `warnings` is a Set of a data class, so the two ```brainfuck blocks collapse into one line. Expect exactly two warnings, for brainfuck and powershell. The three blocks that must stay silent are also here: a fence with no language at all (not a mistake - nothing was claimed), a ```text fence (an explicit 'this is not code', mapped onto SYNTAX_STYLE_NONE), and an indented block, which has no way to name a language. All five still get the shaded box."
+}

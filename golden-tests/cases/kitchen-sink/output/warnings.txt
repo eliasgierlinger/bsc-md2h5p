@@ -1,0 +1,12 @@
+"1_Overview.md" links to "3_Tables.md". Due to technical limitations, links to other files cannot be rendered as actual links, so the link is rendered as a reference to chapter 3 instead.
+"1_Overview.md" links to "4_Notes.md". Due to technical limitations, links to other files cannot be rendered as actual links, so the link is rendered as a reference to chapter 4 instead.
+"1_Overview.md" links to "CHANGELOG.md", which is not a chapter of this book. The link text is kept, the link itself is dropped.
+"1_Overview.md" links to "Nowhere", which is not a chapter of this book. The link text is kept, the link itself is dropped.
+"4_Notes.md" links to "1_Overview.md". Due to technical limitations, links to other files cannot be rendered as actual links, so the link is rendered as a reference to chapter 1 instead.
+A table contains an image, which H5P cannot show inside a table. The table was rebuilt as a row layout so the image can be shown; it is no longer a single editable H5P table.
+A table contains an image, which H5P cannot show inside a table. The table was rebuilt as a row layout so the image can be shown; it is no longer a single editable H5P table.
+Image "broken.webp" is a .webp file and was skipped: H5P packages only accept .png, .jpg, .jpeg, .gif, .bmp, .tif, .tiff (webp and svg are rejected).
+Image "cell.png" is inside a table cell, where H5P allows no images. The table has too many columns to be rebuilt as a row layout, so the image is shown as its own block directly after the table.
+Raw HTML is unbalanced (<div>, <em> never matched up). It is passed through as written, but it may affect the rest of the page.
+Raw HTML uses <u>, <blockquote>, which H5P does not support in a text block. The tag is removed when the book is displayed, its text content is kept.
+Referenced path "nope.png" could not be found and was skipped.

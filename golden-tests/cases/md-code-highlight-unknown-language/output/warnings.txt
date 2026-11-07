@@ -1,0 +1,2 @@
+Code block language "brainfuck" is not known to the syntax highlighter. The block is rendered without highlighting.
+Code block language "powershell" is not known to the syntax highlighter. The block is rendered without highlighting.

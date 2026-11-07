@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Folder Auto Alpha Tiebreak",
+  "note": "ChapterFolderResolver: same depth, neither numbered -> alphabetically first folder name wins"
+}

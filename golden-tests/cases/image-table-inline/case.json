@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Table Inline",
+  "note": "MarkdownChunker.visit(Image) inside a table: H5P allows <img> in no text field, so this 2-column table is rebuilt as H5P.Row/H5P.RowColumn with the image as a content block in its cell."
+}

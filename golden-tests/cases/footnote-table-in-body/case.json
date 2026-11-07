@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Footnote Table In Body",
+  "note": "A table inside a footnote definition: it is its own content block, so the footnote list has to be interrupted for it. Without that the table would be committed before the footnote section it belongs to."
+}

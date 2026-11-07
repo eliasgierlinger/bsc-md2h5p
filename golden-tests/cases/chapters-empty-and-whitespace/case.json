@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Empty And Whitespace",
+  "note": "BookFromFiles: an empty markdown file and a whitespace-only markdown file must not crash the parser, and both are reported - H5P hides such a chapter instead of showing it empty."
+}

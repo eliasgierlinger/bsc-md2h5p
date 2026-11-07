@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Folder Auto Numbered Wins",
+  "note": "ChapterFolderResolver: candidate with a numbered md file wins over a same-depth candidate without one (numbered = any leading digit)."
+}

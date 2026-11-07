@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Folder Subfolder Slashes",
+  "subfolder": "/sub/",
+  "note": "ChapterFolderResolver: surrounding slashes are trimmed before resolving the subfolder"
+}

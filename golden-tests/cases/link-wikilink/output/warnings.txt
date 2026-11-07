@@ -1,0 +1,2 @@
+"1_Notes.md" links to "2_Setup.md". Due to technical limitations, links to other files cannot be rendered as actual links, so the link is rendered as a reference to chapter 2 instead.
+"1_Notes.md" links to "Nope", which is not a chapter of this book. The link text is kept, the link itself is dropped.

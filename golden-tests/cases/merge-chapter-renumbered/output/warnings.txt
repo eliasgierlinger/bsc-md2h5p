@@ -1,0 +1,1 @@
+1 block(s) added in H5P to chapter "Retired" could not be put back in the same place, because the block they followed is no longer in the Markdown. They were placed as close to it as possible.

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Alert Unknown Type",
+  "note": "AlertsExtension.create() only allows the five STANDARD_TYPES, so an unrecognized [!TYPE] marker never becomes an Alert node at parse time; it falls through to visit(BlockQuote) and renders as a plain quote with the literal marker text preserved."
+}

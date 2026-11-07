@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Headings Duplicate Ids",
+  "note": "Two headings with identical text; IdGenerator in visit(Heading) must disambiguate the generated ids (e.g. overview vs overview-1)."
+}

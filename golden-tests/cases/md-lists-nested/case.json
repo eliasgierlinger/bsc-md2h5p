@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Lists Nested",
+  "note": "Nested lists: an ordered list nested inside a bullet list item, exercising visit(BulletList)/visit(OrderedList)/visit(ListItem) recursively."
+}

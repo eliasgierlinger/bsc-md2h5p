@@ -1,0 +1,89 @@
+{
+    "showCoverPage": true,
+    "bookCover": {
+        "coverDescription": "<h2>Md Code Highlight Multiline</h2>"
+    },
+    "chapters": [
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<h2 id=\"ch1-multiline\">Multiline</h2>\n<p>A block comment and a multi-line string, both crossing lines:</p>\n<div style=\"background-color:#f6f8fa\">\n<pre><code class=\"language-java\"><span style=\"color:#6a737d\">/*\n * The whole comment is one colour,\n * including the blank line below.\n\n */\n</span><span style=\"color:#d73a49\">class</span> Sample {\n    <span style=\"color:#6f42c1\">String</span> text = <span style=\"color:#032f62\">&quot;&quot;&quot;\n        line one\n        line two\n        &quot;&quot;&quot;</span>;\n    <span style=\"color:#d73a49\">int</span> after = <span style=\"color:#005cc5\">1</span>;\n}\n</code></pre>\n</div>\n<p>The block after it must start uncoloured again:</p>\n<div style=\"background-color:#f6f8fa\">\n<pre><code class=\"language-java\"><span style=\"color:#d73a49\">int</span> plain = <span style=\"color:#005cc5\">0</span>;\n</code></pre>\n</div>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text",
+                                "extraTitle": "Untitled Text",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:e8abb5212eed6437fb3c6644\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "454e712b-26bd-aa20-f872-0941fa480cd8"
+                        },
+                        "useSeparator": "disabled"
+                    }
+                ]
+            },
+            "library": "H5P.Column 1.22",
+            "subContentId": "39efcc1a-67bf-2040-e7ab-3fc9f94731dc",
+            "metadata": {
+                "contentType": "Page",
+                "license": "U",
+                "title": "Multiline",
+                "extraTitle": "Multiline",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:chapter:1_Sample.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+            }
+        }
+    ],
+    "behaviour": {
+        "baseColor": "#1768c4",
+        "defaultTableOfContents": true,
+        "progressIndicators": true,
+        "progressAuto": true,
+        "displaySummary": true,
+        "enableRetry": true
+    },
+    "read": "Read",
+    "displayTOC": "Display 'Table of contents'",
+    "hideTOC": "Hide 'Table of contents'",
+    "nextPage": "Next page",
+    "previousPage": "Previous page",
+    "chapterCompleted": "Page completed!",
+    "partCompleted": "@pages of @total completed",
+    "incompleteChapter": "Incomplete page",
+    "navigateToTop": "Navigate to the top",
+    "markAsFinished": "I have finished this page",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "bookProgressSubtext": "@count of @total pages",
+    "interactionsProgressSubtext": "@count of @total interactions",
+    "submitReport": "Submit Report",
+    "restartLabel": "Restart",
+    "summaryHeader": "Summary",
+    "allInteractions": "All interactions",
+    "unansweredInteractions": "Unanswered interactions",
+    "scoreText": "@score / @maxscore",
+    "leftOutOfTotalCompleted": "@left of @max interactions completed",
+    "noInteractions": "No interactions",
+    "score": "Score",
+    "summaryAndSubmit": "Summary &amp; submit",
+    "noChapterInteractionBoldText": "You have not interacted with any pages.",
+    "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+    "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+    "bookProgress": "Book progress",
+    "interactionsProgress": "Interactions progress",
+    "totalScoreLabel": "Total score",
+    "a11y": {
+        "progress": "Page @page of @total.",
+        "menu": "Toggle navigation menu"
+    },
+    "page": "Page",
+    "next": "Next",
+    "previous": "Previous"
+}

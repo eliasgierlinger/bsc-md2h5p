@@ -1,0 +1,694 @@
+{
+  "showCoverPage": true,
+  "bookCover": {
+    "coverDescription": "<h2>Merge Library Upgraded</h2>"
+  },
+  "chapters": [
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {
+                "text": "<h2 id=\"ch1-sample\">Sample</h2>\n"
+              },
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text",
+                "extraTitle": "Untitled Text",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:5d4e5a0ba5a383d28c8bbfb3\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "f47e187e-0442-8cb1-72c8-13e2e8613130"
+            },
+            "useSeparator": "disabled"
+          },
+          {
+            "content": {
+              "library": "H5P.Row 1.0",
+              "params": {
+                "columns": [
+                  {
+                    "width": 34,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><thead><tr><th style=\"padding:0.5em;background-color:#f2f2f2;text-align:left\">Name</th></tr></thead></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "454e712b-26bd-aa20-f872-0941fa480cd8"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "97d3f2e1-1d09-2461-15e2-19b531080932"
+                    }
+                  },
+                  {
+                    "width": 33,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><thead><tr><th style=\"padding:0.5em;background-color:#f2f2f2;text-align:center\">Picture</th></tr></thead></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "2f00a97b-105e-9046-97b6-0218ac2d13c6"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "a2a96632-7b1c-f896-cdde-ff454901720f"
+                    }
+                  },
+                  {
+                    "width": 33,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><thead><tr><th style=\"padding:0.5em;background-color:#f2f2f2;text-align:right\">Note</th></tr></thead></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "4b5abfde-ba9d-b71f-235d-b354f15a3b74"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "5da3354d-7bec-235f-514c-5561b311c22d"
+                    }
+                  }
+                ]
+              },
+              "metadata": {
+                "contentType": "Row",
+                "license": "U",
+                "title": "Row",
+                "extraTitle": "Row",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:fd02aa23737e6ca0bc6a2d26\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "5d380dc8-4190-f301-7195-b45074922a12"
+            },
+            "useSeparator": "disabled"
+          },
+          {
+            "content": {
+              "library": "H5P.Row 1.0",
+              "params": {
+                "columns": [
+                  {
+                    "width": 34,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:left\">Cat</td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "389bfa77-05db-5a6d-406c-7de86acc2fe6"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "6398d953-2fd5-bc57-3160-653ffba3c908"
+                    }
+                  },
+                  {
+                    "width": 33,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:center\">before </td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "ae3a83db-fa25-82fe-9858-5349411bfc1d"
+                          },
+                          {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                              "decorative": false,
+                              "contentName": "Image",
+                              "expandImage": "Expand Image",
+                              "minimizeImage": "Minimize Image",
+                              "file": {
+                                "path": "images/cell-64abf93fb4c16b4258aa6eff.png",
+                                "mime": "image/png",
+                                "copyright": {
+                                  "license": "U"
+                                },
+                                "width": 1920,
+                                "height": 1080
+                              },
+                              "alt": "A cat",
+                              "title": "A cat"
+                            },
+                            "metadata": {
+                              "contentType": "Image",
+                              "license": "U",
+                              "title": "A cat",
+                              "extraTitle": "A cat",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "82cc5a37-c73a-163a-921d-83eb24350b9c"
+                          },
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:center\"> after</td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "b119f5d1-c9cc-0ffc-eec1-df2efc028fcf"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "f466cd43-668a-b2b5-3700-47b222403406"
+                    }
+                  },
+                  {
+                    "width": 33,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:right\"><strong>loud</strong></td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "35122689-97b8-eebd-dea5-c0fc6759eef5"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "a663412f-cf39-0feb-8a66-c6cfb85374e3"
+                    }
+                  }
+                ]
+              },
+              "metadata": {
+                "contentType": "Row",
+                "license": "U",
+                "title": "Row",
+                "extraTitle": "Row",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:542d1f76042fb0cb98935523\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "cdfbecee-ea07-6623-9799-45e137c0e885"
+            },
+            "useSeparator": "enabled"
+          },
+          {
+            "content": {
+              "library": "H5P.Row 1.0",
+              "params": {
+                "columns": [
+                  {
+                    "width": 34,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:left\">Dog</td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "d4b13915-c36f-75de-a771-6d973505419f"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "e6737122-9fa9-ee53-75a3-2aa51c38576d"
+                    }
+                  },
+                  {
+                    "width": 33,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:center\">no picture here</td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "67445f2e-0c47-da3e-8df1-c13bb3e77949"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "29e92de5-2675-3bc6-e017-44a6a791981e"
+                    }
+                  },
+                  {
+                    "width": 33,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:right\">quiet</td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "fe1193d8-d679-8428-fefb-be02c2cdbc47"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "c7d0f9da-f754-58a2-b4be-d1cd9c8b6aeb"
+                    }
+                  }
+                ]
+              },
+              "metadata": {
+                "contentType": "Row",
+                "license": "U",
+                "title": "Row",
+                "extraTitle": "Row",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:f120073f325b29e0314233d6\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "a2835b26-7394-d573-23ea-e4f6849b686d"
+            },
+            "useSeparator": "enabled"
+          },
+          {
+            "content": {
+              "library": "H5P.Row 1.0",
+              "params": {
+                "columns": [
+                  {
+                    "width": 34,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:left\">Fish</td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "539331da-9d13-66ef-be20-4a2f6de4d35a"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "7ce4f114-49ee-3026-bed3-25910e87ac42"
+                    }
+                  },
+                  {
+                    "width": 33,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:center\"></td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "314db4f8-3f74-3047-4a88-59389b911767"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "0a166509-d107-3437-e81d-94e31e7a1752"
+                    }
+                  },
+                  {
+                    "width": 33,
+                    "content": {
+                      "library": "H5P.RowColumn 1.0",
+                      "params": {
+                        "content": [
+                          {
+                            "library": "H5P.Table 1.2",
+                            "params": {
+                              "text": "<table style=\"border-collapse:collapse;width:100%\"><tbody><tr><td style=\"padding:0.5em;text-align:right\">silent</td></tr></tbody></table>"
+                            },
+                            "metadata": {
+                              "contentType": "Table",
+                              "license": "U",
+                              "title": "Cell",
+                              "extraTitle": "Cell",
+                              "authors": [],
+                              "changes": []
+                            },
+                            "subContentId": "7efba421-a750-df08-c7d0-fca480f24a34"
+                          }
+                        ]
+                      },
+                      "metadata": {
+                        "contentType": "Column",
+                        "license": "U",
+                        "title": "Row",
+                        "extraTitle": "Row",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "a99fb6c5-f88d-a18c-c2f9-ef163b89de4f"
+                    }
+                  }
+                ]
+              },
+              "metadata": {
+                "contentType": "Row",
+                "license": "U",
+                "title": "Row",
+                "extraTitle": "Row",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:3159068eb577b22a89c6b33d\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "69d7d05f-b0f2-ae80-3f7e-997541a112f6"
+            },
+            "useSeparator": "enabled"
+          },
+          {
+            "content": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {
+                "text": "<p>Text after the table.</p>\n"
+              },
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text",
+                "extraTitle": "Untitled Text",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:b9378f1030faa912e90eccfc\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "a967c990-7786-a0d1-d25b-0dae76bfa1d7"
+            },
+            "useSeparator": "disabled"
+          },
+          {
+            "content": {
+              "params": {
+                "iconType": "icon",
+                "icon": "plus",
+                "color": "#981d99",
+                "hotspots": [
+                  {
+                    "position": {
+                      "x": 50,
+                      "y": 50
+                    },
+                    "alwaysFullscreen": false,
+                    "content": [
+                      {
+                        "params": {
+                          "text": "<p>The cat, up close.</p>"
+                        },
+                        "library": "H5P.Text 1.1",
+                        "metadata": {
+                          "contentType": "Text",
+                          "license": "U",
+                          "title": "Untitled Text",
+                          "authors": [],
+                          "changes": []
+                        },
+                        "subContentId": "e6f0a2c4-1f5b-4d64-9a0e-2c7b8d1f4a30"
+                      }
+                    ]
+                  }
+                ],
+                "hotspotNumberLabel": "Hotspot #num",
+                "closeButtonLabel": "Close",
+                "containsAudioVideoLabel": "Contains Audio/Video",
+                "image": {
+                  "path": "images/cell-64abf93fb4c16b4258aa6eff.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 120,
+                  "height": 120
+                }
+              },
+              "library": "H5P.ImageHotspots 1.11",
+              "metadata": {
+                "contentType": "Image Hotspots",
+                "license": "U",
+                "title": "Untitled Image Hotspots",
+                "authors": [],
+                "changes": [],
+                "extraTitle": "Untitled Image Hotspots"
+              },
+              "subContentId": "b1c2d3e4-5f60-4718-8293-a4b5c6d7e8f9"
+            },
+            "useSeparator": "auto"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.22",
+      "subContentId": "39efcc1a-67bf-2040-e7ab-3fc9f94731dc",
+      "metadata": {
+        "contentType": "Page",
+        "license": "U",
+        "title": "Sample",
+        "extraTitle": "Sample",
+        "authors": [],
+        "changes": [],
+        "authorComments": "md2h5p:1.3:chapter:1_Sample.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+      }
+    }
+  ],
+  "behaviour": {
+    "baseColor": "#1768c4",
+    "defaultTableOfContents": true,
+    "progressIndicators": true,
+    "progressAuto": true,
+    "displaySummary": true,
+    "enableRetry": true
+  },
+  "read": "Read",
+  "displayTOC": "Display 'Table of contents'",
+  "hideTOC": "Hide 'Table of contents'",
+  "nextPage": "Next page",
+  "previousPage": "Previous page",
+  "chapterCompleted": "Page completed!",
+  "partCompleted": "@pages of @total completed",
+  "incompleteChapter": "Incomplete page",
+  "navigateToTop": "Navigate to the top",
+  "markAsFinished": "I have finished this page",
+  "fullscreen": "Fullscreen",
+  "exitFullscreen": "Exit fullscreen",
+  "bookProgressSubtext": "@count of @total pages",
+  "interactionsProgressSubtext": "@count of @total interactions",
+  "submitReport": "Submit Report",
+  "restartLabel": "Restart",
+  "summaryHeader": "Summary",
+  "allInteractions": "All interactions",
+  "unansweredInteractions": "Unanswered interactions",
+  "scoreText": "@score / @maxscore",
+  "leftOutOfTotalCompleted": "@left of @max interactions completed",
+  "noInteractions": "No interactions",
+  "score": "Score",
+  "summaryAndSubmit": "Summary &amp; submit",
+  "noChapterInteractionBoldText": "You have not interacted with any pages.",
+  "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+  "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+  "bookProgress": "Book progress",
+  "interactionsProgress": "Interactions progress",
+  "totalScoreLabel": "Total score",
+  "a11y": {
+    "progress": "Page @page of @total.",
+    "menu": "Toggle navigation menu"
+  }
+}

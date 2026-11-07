@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters No Numbered",
+  "note": "BookFromFiles: no numbered files -> all become chapters, ordered by filename, underscores become spaces"
+}

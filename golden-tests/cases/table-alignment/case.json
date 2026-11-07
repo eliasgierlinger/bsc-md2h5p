@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Table Alignment",
+  "note": "Covers TableCell alignment attribute for left, center, right, and unaligned (null) columns."
+}

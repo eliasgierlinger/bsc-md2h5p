@@ -1,0 +1,1 @@
+Raw HTML uses <blockquote>, <table>, <tr>, <th>, <td>, <u>, <sup>, which H5P does not support in a text block. The tag is removed when the book is displayed, its text content is kept. Write tables as Markdown tables - those become a real H5P table.

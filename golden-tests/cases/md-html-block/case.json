@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Html Block",
+  "note": "visit(HtmlBlock): a raw multi-line <div> block between blank lines is passed through verbatim. <div> and <p> are allowed, so there is nothing to warn about."
+}

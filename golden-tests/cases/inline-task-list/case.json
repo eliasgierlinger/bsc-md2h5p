@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Inline Task List",
+  "note": "Covers the TaskListItemMarker CustomNode branch, both checked and unchecked. <input> is not allowed, so the box is a character, and it moves inside the item's paragraph."
+}

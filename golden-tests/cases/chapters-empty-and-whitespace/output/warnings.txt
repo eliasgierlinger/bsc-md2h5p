@@ -1,0 +1,2 @@
+"1_Empty.md" is empty, so its chapter has no content. H5P skips such a chapter instead of showing an empty page.
+"2_Whitespace.md" is empty, so its chapter has no content. H5P skips such a chapter instead of showing an empty page.

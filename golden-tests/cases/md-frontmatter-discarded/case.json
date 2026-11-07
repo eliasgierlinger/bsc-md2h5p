@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Frontmatter Discarded",
+  "note": "visit(CustomBlock) YamlFrontMatterBlock case: front matter at the top of the file is parsed and discarded, not rendered, while the heading and paragraph after it still appear."
+}

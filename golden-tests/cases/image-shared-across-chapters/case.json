@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Shared Across Chapters",
+  "note": "One ImageResolver is shared by all chapters: the same image referenced from two chapters is packed once, while a same-named file from another folder still gets its own packed name."
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Inline Emphasis",
+  "note": "Covers visit(Emphasis) and visit(StrongEmphasis), including emphasis nested inside strong emphasis."
+}

@@ -1,0 +1,2 @@
+Folder "." also contains markdown files and could be used to generate a book instead. Use the subfolder parameter with "." to select it.
+Folder "notes" also contains markdown files and could be used to generate a book instead. Use the subfolder parameter with "notes" to select it.

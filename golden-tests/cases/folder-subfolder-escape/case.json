@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Folder Subfolder Escape",
+  "subfolder": "../..",
+  "note": "ChapterFolderResolver: subfolder escaping root falls back to auto-detection"
+}

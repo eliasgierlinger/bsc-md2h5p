@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Lists Basic",
+  "note": "visit(BulletList) and visit(OrderedList) with visit(ListItem): a simple bullet list and a simple ordered list."
+}

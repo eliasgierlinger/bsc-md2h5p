@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Inline Strikethrough And Ins",
+  "note": "Covers the CustomNode branches for Strikethrough (<del>, allowed) and Ins (not allowed, so its ++ markers are kept as text)."
+}

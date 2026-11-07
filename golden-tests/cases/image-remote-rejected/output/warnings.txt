@@ -1,0 +1,5 @@
+Image "ftp://example.org/logo.png" uses the "ftp" scheme, of which only http, https and data are supported.
+Image "http://127.0.0.1:8080/secret.png" points at "127.0.0.1", which is a local or private address, and was skipped.
+Image "http://169.254.169.254/latest/meta-data/iam.png" points at "169.254.169.254", which is a local or private address, and was skipped.
+Image "http://[::1]/secret.png" points at "[::1]", which is a local or private address, and was skipped.
+Image "http://exa|mple.org/logo.png" is not a valid URL.

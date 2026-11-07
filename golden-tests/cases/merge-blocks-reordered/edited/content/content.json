@@ -1,0 +1,322 @@
+{
+  "showCoverPage": true,
+  "bookCover": {
+    "coverDescription": "<h2>orig_worst</h2>"
+  },
+  "chapters": [
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {
+                "text": "<h2 id=\"ch1-intro\">Intro</h2>\n<p>This book explains how the toolchain is put together and what each part of it is for.</p>\n<p>Every chapter is short and can be read on its own.</p>\n<p>Work through them in order the first time.</p>\n"
+              },
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text",
+                "extraTitle": "Untitled Text",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:b3482ef36f005537a51320f1\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "b157c327-66dc-46eb-aff2-2d8c8ce816ca"
+            },
+            "useSeparator": "disabled"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.22",
+      "subContentId": "d5f138d0-70d0-4f37-9d33-b818c23d4782",
+      "metadata": {
+        "contentType": "Page",
+        "license": "U",
+        "title": "Intro",
+        "extraTitle": "Intro",
+        "authors": [],
+        "changes": [],
+        "authorComments": "md2h5p:1.3:chapter:1_Intro.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+      }
+    },
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {
+                "text": "<h2 id=\"ch2-setup\">Setup</h2>\n<p>Install the toolchain before you start.</p>\n"
+              },
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text",
+                "extraTitle": "Untitled Text",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:cc7217dcdccfd64dcc29ccb5\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "fdce8dbf-3b51-44a3-b925-6ca537dec5c4"
+            },
+            "useSeparator": "disabled"
+          },
+          {
+            "content": {
+              "library": "H5P.Table 1.2",
+              "params": {
+                "text": "<table style=\"border-collapse:collapse\"><thead><tr><th style=\"border:1px solid #cccccc;padding:0.5em;background-color:#f2f2f2\">Tool</th><th style=\"border:1px solid #cccccc;padding:0.5em;background-color:#f2f2f2\">Version</th></tr></thead><tbody><tr><td style=\"border:1px solid #cccccc;padding:0.5em\">Kotlin</td><td style=\"border:1px solid #cccccc;padding:0.5em\">2.4</td></tr><tr><td style=\"border:1px solid #cccccc;padding:0.5em\">Gradle</td><td style=\"border:1px solid #cccccc;padding:0.5em\">9.0</td></tr></tbody></table>"
+              },
+              "metadata": {
+                "contentType": "Table",
+                "license": "U",
+                "title": "Untitled Table",
+                "extraTitle": "Untitled Table",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:f406b0f01de0599c525dc8b0\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "560aa21c-c5ff-4a67-976c-c1633cfb031b"
+            },
+            "useSeparator": "disabled"
+          },
+          {
+            "content": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {
+                "text": "<p>Then check the install by running the version command.</p>\n"
+              },
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text",
+                "extraTitle": "Untitled Text",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:a66b5f513b7bddcae46d3a74\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "a587db0c-8bfb-4859-9dd5-b63d0ce780ed"
+            },
+            "useSeparator": "disabled"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.22",
+      "subContentId": "cec722fe-0087-487a-a73f-ce632fba5787",
+      "metadata": {
+        "contentType": "Page",
+        "license": "U",
+        "title": "Setup",
+        "extraTitle": "Setup",
+        "authors": [],
+        "changes": [],
+        "authorComments": "md2h5p:1.3:chapter:2_Setup.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+      }
+    },
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {
+                "text": "<h2 id=\"ch3-practice\">Practice</h2>\n<p>Run the first exercise and compare your output with the sample.</p>\n"
+              },
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text",
+                "extraTitle": "Untitled Text",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:5be1ef70655aacb051bb52e4\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "542d475d-df93-4c84-bc80-8c6aa1ec0ca1"
+            },
+            "useSeparator": "disabled"
+          },
+          {
+            "content": {
+              "params": {
+                "question": "<p>Did exercise one pass?</p>",
+                "answers": [
+                  {
+                    "correct": true,
+                    "text": "<div>Yes</div>"
+                  },
+                  {
+                    "correct": false,
+                    "text": "<div>No</div>"
+                  }
+                ]
+              },
+              "library": "H5P.MultiChoice 1.16",
+              "subContentId": "b0000000-0000-4000-8000-000000000001",
+              "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "After one",
+                "extraTitle": "After one"
+              }
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "library": "H5P.Table 1.2",
+              "params": {
+                "text": "<table style=\"border-collapse:collapse\"><thead><tr><th style=\"border:1px solid #cccccc;padding:0.5em;background-color:#f2f2f2\">Step</th><th style=\"border:1px solid #cccccc;padding:0.5em;background-color:#f2f2f2\">Time</th></tr></thead><tbody><tr><td style=\"border:1px solid #cccccc;padding:0.5em\">One</td><td style=\"border:1px solid #cccccc;padding:0.5em\">5 min</td></tr></tbody></table>"
+              },
+              "metadata": {
+                "contentType": "Table",
+                "license": "U",
+                "title": "Untitled Table",
+                "extraTitle": "Untitled Table",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:f6a57d0d2fb02743323337d5\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "b23e77ec-cf1a-41db-884c-4919ef9369b3"
+            },
+            "useSeparator": "disabled"
+          },
+          {
+            "content": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {
+                "text": "<p>Run the second exercise and compare your output with the sample.</p>\n"
+              },
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text",
+                "extraTitle": "Untitled Text",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:86cd3110785116fbe692d0eb\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "58ae72fc-1d73-4a11-8555-ff3bf038afe6"
+            },
+            "useSeparator": "disabled"
+          },
+          {
+            "content": {
+              "params": {
+                "question": "<p>Did exercise two pass?</p>",
+                "answers": [
+                  {
+                    "correct": true,
+                    "text": "<div>Yes</div>"
+                  },
+                  {
+                    "correct": false,
+                    "text": "<div>No</div>"
+                  }
+                ]
+              },
+              "library": "H5P.MultiChoice 1.16",
+              "subContentId": "b0000000-0000-4000-8000-000000000002",
+              "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "After two",
+                "extraTitle": "After two"
+              }
+            },
+            "useSeparator": "auto"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.22",
+      "subContentId": "235c444b-30bb-4f4e-ac0f-f6140866d8a4",
+      "metadata": {
+        "contentType": "Page",
+        "license": "U",
+        "title": "Practice",
+        "extraTitle": "Practice",
+        "authors": [],
+        "changes": [],
+        "authorComments": "md2h5p:1.3:chapter:3_Practice.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+      }
+    },
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {
+                "text": "<h2 id=\"ch4-retired\">Retired</h2>\n<p>An old chapter that is about to be deleted from the Markdown.</p>\n"
+              },
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text",
+                "extraTitle": "Untitled Text",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:block:19294c44888b0f2e1b9f9d8b\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+              },
+              "subContentId": "36f9cd4f-1d64-4592-915f-b4f2dc5640e0"
+            },
+            "useSeparator": "disabled"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.22",
+      "subContentId": "c8ae9e04-2be0-4345-857a-1c21903407b3",
+      "metadata": {
+        "contentType": "Page",
+        "license": "U",
+        "title": "Retired",
+        "extraTitle": "Retired",
+        "authors": [],
+        "changes": [],
+        "authorComments": "md2h5p:1.3:chapter:4_Retired.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+      }
+    }
+  ],
+  "behaviour": {
+    "baseColor": "#1768c4",
+    "defaultTableOfContents": true,
+    "progressIndicators": true,
+    "progressAuto": true,
+    "displaySummary": true,
+    "enableRetry": true
+  },
+  "read": "Read",
+  "displayTOC": "Display 'Table of contents'",
+  "hideTOC": "Hide 'Table of contents'",
+  "nextPage": "Next page",
+  "previousPage": "Previous page",
+  "chapterCompleted": "Page completed!",
+  "partCompleted": "@pages of @total completed",
+  "incompleteChapter": "Incomplete page",
+  "navigateToTop": "Navigate to the top",
+  "markAsFinished": "I have finished this page",
+  "fullscreen": "Fullscreen",
+  "exitFullscreen": "Exit fullscreen",
+  "bookProgressSubtext": "@count of @total pages",
+  "interactionsProgressSubtext": "@count of @total interactions",
+  "submitReport": "Submit Report",
+  "restartLabel": "Restart",
+  "summaryHeader": "Summary",
+  "allInteractions": "All interactions",
+  "unansweredInteractions": "Unanswered interactions",
+  "scoreText": "@score / @maxscore",
+  "leftOutOfTotalCompleted": "@left of @max interactions completed",
+  "noInteractions": "No interactions",
+  "score": "Score",
+  "summaryAndSubmit": "Summary &amp; submit",
+  "noChapterInteractionBoldText": "You have not interacted with any pages.",
+  "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+  "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+  "bookProgress": "Book progress",
+  "interactionsProgress": "Interactions progress",
+  "totalScoreLabel": "Total score",
+  "a11y": {
+    "progress": "Page @page of @total.",
+    "menu": "Toggle navigation menu"
+  }
+}

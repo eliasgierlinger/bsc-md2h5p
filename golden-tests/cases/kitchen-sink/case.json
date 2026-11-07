@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Kitchen Sink",
+  "note": "The one case that is deliberately not about a single branch: everything the converter knows, combined as hard as the syntax allows, so a change can be eyeballed in one .h5p instead of ninety. Chapter 1 is inline constructs, headings, lists carrying blocks, math and every kind of link; chapter 2 is the nesting that RenderContext exists for (table and image inside a blockquote inside a blockquote, table with an image inside an alert, quote inside an alert); chapter 3 is tables (alignment, pseudo-table, one column too wide, header only, a table in a footnote); chapter 4 is footnote reuse and chaining, a footnote body holding list + table + image + quote, the two image rejections, and the id collision with chapter 1 that the ch<n>- prefix resolves. The unbalanced raw HTML is last on purpose - Moodle does not repair it, so anything after it could be swallowed. Because it covers everything, it also diffs on everything: when this case changes, the narrow case that pins the actual behavior is the one to read."
+}

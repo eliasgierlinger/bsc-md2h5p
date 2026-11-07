@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Html Disallowed",
+  "note": "H5PHtml.checkRawHtml: raw HTML using tags H5P strips from a text block - including a raw <table>, which gets the extra hint that a Markdown table becomes a real H5P table."
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Folder Subfolder Dot",
+  "subfolder": ".",
+  "note": "ChapterFolderResolver: subfolder of \".\" is treated as not specified and falls through to auto-detection"
+}

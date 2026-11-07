@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Code Highlight Multiline",
+  "note": "CodeHighlighter tokenizes line by line, so a construct that spans lines only stays one color because the state is carried across them - which is the reason RSyntaxDocument is used instead of a bare TokenMaker. Pins a block comment and a triple-quoted string spanning several lines, and the blank line inside the comment. It also pins that the newline between two lines is written without closing the open span, so a multi-line comment is one span rather than one per line."
+}

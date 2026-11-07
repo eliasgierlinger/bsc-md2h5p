@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Lists Loose Item",
+  "note": "A single list item containing several paragraphs (a loose list item), exercising visit(ListItem) with multiple visit(Paragraph) children."
+}

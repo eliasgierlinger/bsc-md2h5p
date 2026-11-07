@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Table Header Only",
+  "note": "Covers a table with a header row and delimiter row but no body rows (empty TableBody)."
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Anchor Removed",
+  "mergeWith": "edited",
+  "note": "The quiz followed the closing paragraph, and that paragraph is gone from the Markdown. There is nothing after it to anchor to either, so the search walks back to the table and the quiz is put after it, warned about. Nothing added by hand is ever dropped just because the text around it moved."
+}

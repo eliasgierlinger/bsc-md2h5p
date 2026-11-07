@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Headings Inline Id",
+  "note": "Heading containing inline code and emphasis; plainTextOf(heading) must derive the anchor id from plain text only, ignoring the inline tags."
+}

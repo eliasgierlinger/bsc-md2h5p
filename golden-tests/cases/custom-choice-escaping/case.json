@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Custom Choice Escaping",
+  "note": "Answer text the parser has to keep its hands off. A leading asterisk is escaped as \\* and is unescaped AFTER the correct-marker is taken off, so an answer that is both correct and starts with an asterisk (*\\*.md) comes out as both. The text is escaped rather than parsed as inline Markdown: 2 * 3 < 10 & \"quoted\" has to reach the sanitizer literally, which matters more in an answer than being able to hold bold - so **bold** stays four asterisks. The last answer pins the one collision that follows from all this: a line that opens with ** is read as a correct answer beginning with *, because the marker is consumed before anything else looks at the line. Escape it if that is not what was meant."
+}

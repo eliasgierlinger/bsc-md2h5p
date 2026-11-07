@@ -1,0 +1,4 @@
+Image "data:image/png;base64,!!!!" is a data URL whose data could not be decoded.
+Image "data:image/png;base64," is a data URL with no data in it.
+Image "data:image/webp;base64,UklGRhIAAABXRUJQVlA4TAYAAAAvAAAAAA==" has no file type H5P accepts: only .png, .jpg, .jpeg, .gif, .bmp, .tif, .tiff are packed (webp and svg are rejected).
+Image "data:text/plain;base64,aGVsbG8=" is a data URL of type "text/plain", which is not an image.

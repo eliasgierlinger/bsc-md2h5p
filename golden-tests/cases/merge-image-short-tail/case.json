@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Image Short Tail",
+  "mergeWith": "edited",
+  "note": "The same as merge-image-appended, except that the Markdown puts one very short sentence after the appended image, so the chapter ends text, image, text and the quiz's block is no longer the last one. This is the case that shows why the end-of-chapter rule cannot be left to the similarity walk that handles a split (merge-block-split): three words share almost no word pairs with the forty they follow, and Sorensen-Dice divides by the size of both sides, so a short tail scores far below Similarity.SPLIT however plainly it belongs to the same passage. The walk stops at the image and the quiz would land above it. Because the quiz came last it stays last, and how short the tail is stops mattering."
+}

@@ -1,0 +1,161 @@
+{
+    "showCoverPage": true,
+    "bookCover": {
+        "coverDescription": "<h2>Link Md Crosschapter</h2>"
+    },
+    "chapters": [
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<h2 id=\"ch1-intro\">Intro</h2>\n<p>Read the setup guide<span style=\"color:#666666\"> (→ chapter 3, “Setup”)</span> first, or jump straight to\ninstalling Lumi<span style=\"color:#666666\"> (→ chapter 3, “Setup”)</span>.</p>\n<p>There is also an appendix that is not part of this book.</p>\n<p>The <a href=\"https://h5p.org/semantics\" target=\"_blank\">semantics reference</a> is external, and\n<a href=\"#ch1-background\" target=\"_self\">background</a> is in this chapter.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo, diam eget rhoncus dignissim, nisl tortor tincidunt nibh, nec lobortis felis lorem a enim. Quisque porta vitae mi a suscipit. Pellentesque ut volutpat purus, vel finibus enim. Nam ullamcorper facilisis imperdiet. Aliquam tristique consectetur velit, sed cursus purus aliquam vitae. Cras iaculis quam in facilisis sagittis. Duis tristique hendrerit quam et placerat. Donec purus purus, molestie ac hendrerit eget, tempor sit amet nisl.</p>\n<p>Morbi vitae eleifend orci. Duis ex magna, venenatis vitae libero nec, egestas dictum metus. Ut semper congue velit sit amet feugiat. Integer dignissim facilisis felis, eget rhoncus est accumsan a. Duis nulla nulla, rutrum quis congue sed, finibus a lectus. Donec imperdiet purus et nulla aliquet scelerisque non sit amet metus. Maecenas facilisis lacus ante, quis blandit turpis tempus quis. Donec lobortis felis vel felis finibus suscipit. Praesent id ex commodo, vestibulum ipsum vitae, porttitor tortor. Nulla facilisi. Nullam varius neque eu hendrerit pulvinar. Curabitur quis mollis nibh. Vivamus luctus sapien pharetra augue vestibulum, vel ornare odio congue. Quisque nunc lectus, imperdiet vel enim eget, egestas lobortis ligula. Fusce varius elit non sem interdum interdum vel eget ligula.</p>\n<p>Mauris sodales consectetur diam vitae consequat. Proin velit odio, dignissim nec metus in, hendrerit venenatis elit. Proin ex nunc, tincidunt sed vehicula at, suscipit vitae ante. Ut sollicitudin volutpat consectetur. Ut tristique nibh ligula, a malesuada justo mollis eu. Ut eu enim id purus maximus vulputate. Proin id felis volutpat nisl tristique lobortis. Integer ultricies ornare quam, sed efficitur ante ullamcorper ac. Etiam et pulvinar velit, ac finibus nulla. Donec vitae rutrum urna.</p>\n<p>Ut ultricies neque at nisi malesuada, et pretium odio auctor. Suspendisse dictum erat et nibh maximus, ac congue dui interdum. Nullam ipsum ligula, commodo ut felis sed, fringilla condimentum sem. Integer lacinia tristique risus, vel rutrum est molestie quis. Curabitur nec dolor quam. Donec porttitor dolor lectus. Cras congue laoreet venenatis.</p>\n<p>Aliquam vel ornare odio, sit amet mattis erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent accumsan mauris vel condimentum pellentesque. Quisque elementum ex placerat, scelerisque libero vel, interdum tellus. Aenean mi libero, accumsan at fermentum sit amet, gravida tincidunt ex. Maecenas pellentesque ligula id augue eleifend, at sagittis neque sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas nulla ac risus luctus, a elementum massa volutpat. Phasellus cursus dolor et nunc laoreet, a bibendum purus sodales. Vestibulum pellentesque lobortis est at bibendum. Vivamus et diam ipsum. Pellentesque iaculis auctor sapien at euismod.</p>\n<h3 id=\"ch1-background\">Background</h3>\n<p>Nothing surprising here.</p>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text",
+                                "extraTitle": "Untitled Text",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:8b7a4c6c9ba9b913c812f384\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "4b5abfde-ba9d-b71f-235d-b354f15a3b74"
+                        },
+                        "useSeparator": "disabled"
+                    }
+                ]
+            },
+            "library": "H5P.Column 1.22",
+            "subContentId": "39efcc1a-67bf-2040-e7ab-3fc9f94731dc",
+            "metadata": {
+                "contentType": "Page",
+                "license": "U",
+                "title": "Intro",
+                "extraTitle": "Intro",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:chapter:1_Intro.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<h2 id=\"ch2-usage\">Usage</h2>\n<p>Back to the intro<span style=\"color:#666666\"> (→ chapter 1, “Intro”)</span>, and to <a href=\"#h5p-interactive-book-chapter-454e712b-26bd-aa20-f872-0941fa480cd8\" target=\"_self\">this very chapter</a> or\n<a href=\"#ch2-details\" target=\"_self\">one of its sections</a>.</p>\n<h3 id=\"ch2-details\">Details</h3>\n<p>Still nothing.</p>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text",
+                                "extraTitle": "Untitled Text",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:e12951650615ed80c021f6db\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "97d3f2e1-1d09-2461-15e2-19b531080932"
+                        },
+                        "useSeparator": "disabled"
+                    }
+                ]
+            },
+            "library": "H5P.Column 1.22",
+            "subContentId": "454e712b-26bd-aa20-f872-0941fa480cd8",
+            "metadata": {
+                "contentType": "Page",
+                "license": "U",
+                "title": "Usage",
+                "extraTitle": "Usage",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:chapter:2_Usage.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+            }
+        },
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<h2 id=\"ch3-setup\">Setup</h2>\n<h3 id=\"ch3-installing-lumi\">Installing Lumi</h3>\n<p>Two chapters point here.</p>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text",
+                                "extraTitle": "Untitled Text",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:090d1a8393ba9ac4f261c61f\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "a2a96632-7b1c-f896-cdde-ff454901720f"
+                        },
+                        "useSeparator": "disabled"
+                    }
+                ]
+            },
+            "library": "H5P.Column 1.22",
+            "subContentId": "2f00a97b-105e-9046-97b6-0218ac2d13c6",
+            "metadata": {
+                "contentType": "Page",
+                "license": "U",
+                "title": "Setup",
+                "extraTitle": "Setup",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:chapter:3_Setup.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+            }
+        }
+    ],
+    "behaviour": {
+        "baseColor": "#1768c4",
+        "defaultTableOfContents": true,
+        "progressIndicators": true,
+        "progressAuto": true,
+        "displaySummary": true,
+        "enableRetry": true
+    },
+    "read": "Read",
+    "displayTOC": "Display 'Table of contents'",
+    "hideTOC": "Hide 'Table of contents'",
+    "nextPage": "Next page",
+    "previousPage": "Previous page",
+    "chapterCompleted": "Page completed!",
+    "partCompleted": "@pages of @total completed",
+    "incompleteChapter": "Incomplete page",
+    "navigateToTop": "Navigate to the top",
+    "markAsFinished": "I have finished this page",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "bookProgressSubtext": "@count of @total pages",
+    "interactionsProgressSubtext": "@count of @total interactions",
+    "submitReport": "Submit Report",
+    "restartLabel": "Restart",
+    "summaryHeader": "Summary",
+    "allInteractions": "All interactions",
+    "unansweredInteractions": "Unanswered interactions",
+    "scoreText": "@score / @maxscore",
+    "leftOutOfTotalCompleted": "@left of @max interactions completed",
+    "noInteractions": "No interactions",
+    "score": "Score",
+    "summaryAndSubmit": "Summary &amp; submit",
+    "noChapterInteractionBoldText": "You have not interacted with any pages.",
+    "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+    "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+    "bookProgress": "Book progress",
+    "interactionsProgress": "Interactions progress",
+    "totalScoreLabel": "Total score",
+    "a11y": {
+        "progress": "Page @page of @total.",
+        "menu": "Toggle navigation menu"
+    },
+    "page": "Page",
+    "next": "Next",
+    "previous": "Previous"
+}

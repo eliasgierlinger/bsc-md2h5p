@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Alert Nested Quote",
+  "note": "renderCallout: a blockquote inside an alert, so the shading steps one level darker and both labels appear. The other direction does not arise - the alerts extension does not recognize an alert marker inside a blockquote, which alert-unknown-type shows."
+}

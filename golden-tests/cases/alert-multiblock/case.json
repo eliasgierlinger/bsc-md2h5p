@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Alert Multiblock",
+  "note": "Covers an Alert whose body contains multiple block children (paragraphs and a list), exercising visitChildren(customBlock) inside the pushTag(\"blockquote\") wrapper."
+}

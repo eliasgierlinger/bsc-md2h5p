@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Custom Multiple Choice",
+  "note": "The multiplechoice fenced block, which becomes an H5P.MultiChoice. Unlike singlechoice the order is kept and correctness is carried per answer, so this pins that the two syntaxes really do produce different shapes. The second question has exactly one right answer and pins behaviour.type == \"multi\": under the semantics' \"auto\" default it would render as radio buttons, which is what singlechoice means, so the two constructs would be indistinguishable and the widget would change as soon as a second answer was starred (D30)."
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Inline Autolink",
+  "note": "Covers the registered AutolinkExtension turning a bare URL into a Link node, rendered by visit(Link)."
+}

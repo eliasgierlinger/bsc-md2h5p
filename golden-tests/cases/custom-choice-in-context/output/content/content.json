@@ -1,0 +1,378 @@
+{
+    "showCoverPage": true,
+    "bookCover": {
+        "coverDescription": "<h2>Custom Choice In Context</h2>"
+    },
+    "chapters": [
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<h2 id=\"ch1-contexts\">Contexts</h2>\n<div style=\"background-color:#f2f2f2\">\n<p><strong>💬</strong></p>\n<p>A quiz inside a blockquote:</p>\n</div>"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text",
+                                "extraTitle": "Untitled Text",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:0b2cbcd212df7a401d337c9e\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "4b5abfde-ba9d-b71f-235d-b354f15a3b74"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.SingleChoiceSet 1.11",
+                            "params": {
+                                "choices": [
+                                    {
+                                        "question": "<p>Which one?</p>",
+                                        "answers": [
+                                            "<p>Yes</p>",
+                                            "<p>No</p>"
+                                        ],
+                                        "subContentId": "454e712b-26bd-aa20-f872-0941fa480cd8"
+                                    }
+                                ],
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "behaviour": {
+                                    "autoContinue": true,
+                                    "timeoutCorrect": 2000,
+                                    "timeoutWrong": 3000,
+                                    "soundEffectsEnabled": true,
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "passPercentage": 100
+                                },
+                                "l10n": {
+                                    "nextButtonLabel": "Next question",
+                                    "showSolutionButtonLabel": "Show solution",
+                                    "retryButtonLabel": "Retry",
+                                    "solutionViewTitle": "Solution list",
+                                    "correctText": "Correct!",
+                                    "incorrectText": "Incorrect!",
+                                    "shouldSelect": "Should have been selected",
+                                    "shouldNotSelect": "Should not have been selected",
+                                    "muteButtonLabel": "Mute feedback sound",
+                                    "closeButtonLabel": "Close",
+                                    "slideOfTotal": "Slide :num of :total",
+                                    "scoreBarLabel": "You got :num out of :total points",
+                                    "solutionListQuestionNumber": "Question :num",
+                                    "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                                    "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Single Choice Set",
+                                "license": "U",
+                                "title": "Which one?",
+                                "extraTitle": "Which one?",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:a27c209ac92759fe9fe33265\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "2f00a97b-105e-9046-97b6-0218ac2d13c6"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<div style=\"background-color:#f2f2f2\"><p>and text after it.</p>\n</div>\n<ol>\n<li><p>First item</p>\n</li>\n<li><p>Second item</p>\n</li></ol>"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text",
+                                "extraTitle": "Untitled Text",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:861dfd4cf2818b3bd649c41f\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "a2a96632-7b1c-f896-cdde-ff454901720f"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.MultiChoice 1.16",
+                            "params": {
+                                "question": "<p>Inside a list?</p>",
+                                "answers": [
+                                    {
+                                        "text": "<p>Sure</p>",
+                                        "correct": true,
+                                        "tipsAndFeedback": {
+                                            "tip": "",
+                                            "chosenFeedback": "",
+                                            "notChosenFeedback": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "<p>Nope</p>",
+                                        "correct": false,
+                                        "tipsAndFeedback": {
+                                            "tip": "",
+                                            "chosenFeedback": "",
+                                            "notChosenFeedback": ""
+                                        }
+                                    }
+                                ],
+                                "media": {
+                                    "disableImageZooming": false
+                                },
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "UI": {
+                                    "checkAnswerButton": "Check",
+                                    "submitAnswerButton": "Submit",
+                                    "showSolutionButton": "Show solution",
+                                    "tryAgainButton": "Retry",
+                                    "tipsLabel": "Show tip",
+                                    "scoreBarLabel": "You got :num out of :total points",
+                                    "tipAvailable": "Tip available",
+                                    "feedbackAvailable": "Feedback available",
+                                    "readFeedback": "Read feedback",
+                                    "wrongAnswer": "Wrong answer",
+                                    "correctAnswer": "Correct answer",
+                                    "shouldCheck": "Should have been checked",
+                                    "shouldNotCheck": "Should not have been checked",
+                                    "noInput": "Please answer before viewing the solution",
+                                    "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                                    "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                                    "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                                },
+                                "behaviour": {
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "enableCheckButton": true,
+                                    "type": "multi",
+                                    "singlePoint": false,
+                                    "randomAnswers": false,
+                                    "showSolutionsRequiresInput": true,
+                                    "confirmCheckDialog": false,
+                                    "confirmRetryDialog": false,
+                                    "autoCheck": false,
+                                    "passPercentage": 100,
+                                    "showScorePoints": true
+                                },
+                                "confirmCheck": {
+                                    "header": "Finish ?",
+                                    "body": "Are you sure you wish to finish ?",
+                                    "cancelLabel": "Cancel",
+                                    "confirmLabel": "Finish"
+                                },
+                                "confirmRetry": {
+                                    "header": "Retry ?",
+                                    "body": "Are you sure you wish to retry ?",
+                                    "cancelLabel": "Cancel",
+                                    "confirmLabel": "Confirm"
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Multiple Choice",
+                                "license": "U",
+                                "title": "Inside a list?",
+                                "extraTitle": "Inside a list?",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:d55f6a8ababe501a929c7b7f\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "97d3f2e1-1d09-2461-15e2-19b531080932"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<ol start=\"3\">\n<li><p>Third item</p>\n</li>\n</ol>\n<p>A footnote whose body holds one.<a href=\"#fn-ch1-1\" target=\"_self\" id=\"fnref-ch1-1\">[1]</a></p>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text",
+                                "extraTitle": "Untitled Text",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:76751983013c23d2d633ae10\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "5da3354d-7bec-235f-514c-5561b311c22d"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<hr />\n<ol><li id=\"fn-ch1-1\" style=\"color:#666666\"><p>The footnote body.</p>\n</li></ol>"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Footnotes",
+                                "extraTitle": "Footnotes",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:f3387aa2ceee47e54a902435\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "389bfa77-05db-5a6d-406c-7de86acc2fe6"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.SingleChoiceSet 1.11",
+                            "params": {
+                                "choices": [
+                                    {
+                                        "question": "<p>In a footnote?</p>",
+                                        "answers": [
+                                            "<p>Yes</p>",
+                                            "<p>No</p>"
+                                        ],
+                                        "subContentId": "5d380dc8-4190-f301-7195-b45074922a12"
+                                    }
+                                ],
+                                "overallFeedback": [
+                                    {
+                                        "from": 0,
+                                        "to": 100
+                                    }
+                                ],
+                                "behaviour": {
+                                    "autoContinue": true,
+                                    "timeoutCorrect": 2000,
+                                    "timeoutWrong": 3000,
+                                    "soundEffectsEnabled": true,
+                                    "enableRetry": true,
+                                    "enableSolutionsButton": true,
+                                    "passPercentage": 100
+                                },
+                                "l10n": {
+                                    "nextButtonLabel": "Next question",
+                                    "showSolutionButtonLabel": "Show solution",
+                                    "retryButtonLabel": "Retry",
+                                    "solutionViewTitle": "Solution list",
+                                    "correctText": "Correct!",
+                                    "incorrectText": "Incorrect!",
+                                    "shouldSelect": "Should have been selected",
+                                    "shouldNotSelect": "Should not have been selected",
+                                    "muteButtonLabel": "Mute feedback sound",
+                                    "closeButtonLabel": "Close",
+                                    "slideOfTotal": "Slide :num of :total",
+                                    "scoreBarLabel": "You got :num out of :total points",
+                                    "solutionListQuestionNumber": "Question :num",
+                                    "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                                    "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                                }
+                            },
+                            "metadata": {
+                                "contentType": "Single Choice Set",
+                                "license": "U",
+                                "title": "In a footnote?",
+                                "extraTitle": "In a footnote?",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:8a6c997280669fa03b8cb1b5\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "f47e187e-0442-8cb1-72c8-13e2e8613130"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<ol start=\"1\"><li style=\"color:#666666\"><p>Trailing footnote text.</p>\n <a href=\"#fnref-ch1-1\" target=\"_self\">↩</a></li></ol>"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Footnotes",
+                                "extraTitle": "Footnotes",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:93c58085d4c5f07419ba40a0\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "82cc5a37-c73a-163a-921d-83eb24350b9c"
+                        },
+                        "useSeparator": "disabled"
+                    }
+                ]
+            },
+            "library": "H5P.Column 1.22",
+            "subContentId": "39efcc1a-67bf-2040-e7ab-3fc9f94731dc",
+            "metadata": {
+                "contentType": "Page",
+                "license": "U",
+                "title": "Contexts",
+                "extraTitle": "Contexts",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:chapter:1_Contexts.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+            }
+        }
+    ],
+    "behaviour": {
+        "baseColor": "#1768c4",
+        "defaultTableOfContents": true,
+        "progressIndicators": true,
+        "progressAuto": true,
+        "displaySummary": true,
+        "enableRetry": true
+    },
+    "read": "Read",
+    "displayTOC": "Display 'Table of contents'",
+    "hideTOC": "Hide 'Table of contents'",
+    "nextPage": "Next page",
+    "previousPage": "Previous page",
+    "chapterCompleted": "Page completed!",
+    "partCompleted": "@pages of @total completed",
+    "incompleteChapter": "Incomplete page",
+    "navigateToTop": "Navigate to the top",
+    "markAsFinished": "I have finished this page",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "bookProgressSubtext": "@count of @total pages",
+    "interactionsProgressSubtext": "@count of @total interactions",
+    "submitReport": "Submit Report",
+    "restartLabel": "Restart",
+    "summaryHeader": "Summary",
+    "allInteractions": "All interactions",
+    "unansweredInteractions": "Unanswered interactions",
+    "scoreText": "@score / @maxscore",
+    "leftOutOfTotalCompleted": "@left of @max interactions completed",
+    "noInteractions": "No interactions",
+    "score": "Score",
+    "summaryAndSubmit": "Summary &amp; submit",
+    "noChapterInteractionBoldText": "You have not interacted with any pages.",
+    "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+    "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+    "bookProgress": "Book progress",
+    "interactionsProgress": "Interactions progress",
+    "totalScoreLabel": "Total score",
+    "a11y": {
+        "progress": "Page @page of @total.",
+        "menu": "Toggle navigation menu"
+    },
+    "page": "Page",
+    "next": "Next",
+    "previous": "Previous"
+}

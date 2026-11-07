@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Folder Subfolder Empty Nested",
+  "subfolder": "sub",
+  "note": "ChapterFolderResolver: subfolder exists but has no md files directly in it, only nested"
+}

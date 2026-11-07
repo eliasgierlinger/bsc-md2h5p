@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Lists Interrupted Numbering",
+  "note": "An ordered list interrupted by a content block resumes with <ol start=\"n\"> instead of counting from one again (D23). The two cases that differ: an item that continues after the block repeats its own number, while an item that ends with the block leaves an empty reopened <li> which is dropped - and the start has to move on once more so the next item is not handed the number of the one that just ended. Also here: a list whose own marker starts at 5, a bullet list that must not grow a start attribute, an ordered list nested in a bullet list, and two ordered lists inside each other, where the outer resumes from the item that was open and the inner from where it had got to."
+}

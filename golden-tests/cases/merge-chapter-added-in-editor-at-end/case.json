@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Chapter Added In Editor At End",
+  "mergeWith": "edited",
+  "note": "A chapter was added in H5P at the very end of the book, and the Markdown then added a chapter of its own at the end too. The hand-made chapter has to stay the last one: it followed the last chapter that came from Markdown, which is the book-level form of the same rule that keeps a quiz below a newly appended image (merge-image-appended). Anchoring it to the chapter it happened to follow would bury it in the middle of the book, one place above whatever the Markdown grows next, and it would sink further with every chapter written after it. merge-chapter-added-in-editor is the counterpart, where the added chapter is genuinely in the middle and has to stay there."
+}

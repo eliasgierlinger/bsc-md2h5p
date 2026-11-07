@@ -1,0 +1,1 @@
+A singlechoice block marks 2 answers to "Pick one" as correct, but a single choice question has exactly one right answer. The first one is used and the rest become wrong answers. Use multiplechoice for a question with several right answers.

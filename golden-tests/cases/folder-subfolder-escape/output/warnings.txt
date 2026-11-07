@@ -1,0 +1,1 @@
+Specified subfolder "../.." is outside the source and was ignored; falling back to automatic folder detection.

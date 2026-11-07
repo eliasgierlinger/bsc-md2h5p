@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Blocks Reordered",
+  "mergeWith": "edited",
+  "note": "Two near-identical paragraphs swap places in the Markdown, with a quiz written under each of them in H5P. Needleman-Wunsch is monotonic, so a crossing cannot be expressed: it pairs each old paragraph with the other one, because that is the best pairing that does not cross, and the two quizzes end up under each other's paragraph. The text is right - it is regenerated either way - and nothing is lost; what is wrong is which paragraph each quiz sits under, and only a human can see it. Giving up monotonicity to fix this costs more than it buys (D28), so the merge does the next thing: it notices. looksReordered sees that a block scored strictly higher against one it was not paired with, which is what settling for a crossing looks like from the inside, and says so. The warning is the whole point of the case - check warnings.txt, not just the block order. merge-kitchen-sink has the same swap buried among everything else."
+}

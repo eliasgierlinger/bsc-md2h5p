@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Chapter Renumbered",
+  "mergeWith": "edited",
+  "note": "The Markdown file was renumbered and its separator changed - 3_Retired.md became 03 - Retired.md - while its heading changed and its text was rewritten from scratch in the same round. Neither the source file, nor the title, nor the text matches, so the three tiers merge-chapter-renamed exercises all miss and the quiz inside would land in a rump chapter. What catches it is that both names reduce to the same thing once the ordering prefix and the separators are gone, which is the very reduction the converter uses to derive a title from a file name: renumbering a book must not look like rewriting it. A name that is only *similar* cannot do this on its own - it is a bonus on top of the text - because 3_Basics.md and 4_Basics2.md are nearly the same name and are two chapters."
+}

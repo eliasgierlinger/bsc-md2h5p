@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Code Highlight Languages",
+  "note": "CodeHighlighter: one block per family of token types, since a single language never reaches them all. Kotlin covers keywords, functions, strings, numbers and both comment kinds; XML is the only thing that produces the MARKUP_* types; shell covers VARIABLE; the `kt` and `js` fences pin that the alias map is consulted rather than the info string being passed to RSyntaxTextArea as-is. The info string with a trailing `title=` argument pins that only the first word is taken - both as the language and as the class attribute, since a space in there would make it two classes rather than one."
+}

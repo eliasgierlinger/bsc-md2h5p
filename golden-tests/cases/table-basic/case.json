@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Table Basic",
+  "note": "Covers TableBlock/TableHead/TableBody/TableRow/TableCell rendering for a plain table with no alignment."
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Inline Mixed Nesting",
+  "note": "Covers the tag stack push/pop nesting several inline features at once: emphasis inside a link inside strong emphasis."
+}

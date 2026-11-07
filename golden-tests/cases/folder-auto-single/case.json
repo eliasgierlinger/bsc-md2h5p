@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Folder Auto Single",
+  "note": "ChapterFolderResolver: exactly one candidate folder -> no runner-up warnings at all"
+}

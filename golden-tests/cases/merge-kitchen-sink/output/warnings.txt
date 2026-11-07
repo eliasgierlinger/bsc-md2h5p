@@ -1,0 +1,4 @@
+1 chapter(s) added in H5P could not be put back in the same place, because the chapter they followed is no longer in the Markdown. They were moved to the nearest position that still exists.
+2 block(s) added in H5P to chapter "Setup" could not be put back in the same place, because the block they followed is no longer in the Markdown. They were placed as close to it as possible.
+Blocks of chapter "Practice" appear to have changed places in the Markdown. The alignment cannot follow a reordering, so something added in H5P may now sit under a different paragraph than it did before. Check that chapter.
+The Markdown file "4_Retired.md" no longer exists, so chapter "Retired" was not rebuilt. The 1 block(s) that had been added to it in H5P were kept in a chapter at the end of the book.

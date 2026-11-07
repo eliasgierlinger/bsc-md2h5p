@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Case Insensitive Extension",
+  "note": "BookFromFiles: the .md extension match is case-insensitive"
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Frontmatter Only",
+  "note": "A chapter whose markdown is only a YAML front matter block; textBuffer stays empty so flushTextBuffer must not emit any text content block."
+}

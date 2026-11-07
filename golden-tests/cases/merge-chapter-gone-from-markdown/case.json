@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Chapter Gone From Markdown",
+  "mergeWith": "edited",
+  "note": "The Markdown file behind a chapter was deleted, and that chapter held a quiz. The text goes - the author deleted it - but the quiz is not destroyed with it: it is kept in a rump chapter at the end, titled so it is obvious what happened, and warned about. Deleting a file must never silently throw away somebody's hand-made work."
+}

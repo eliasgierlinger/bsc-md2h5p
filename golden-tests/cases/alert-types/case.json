@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Alert Types",
+  "note": "Covers the Alert CustomBlock branch for all five standard GFM alert types (NOTE, TIP, IMPORTANT, WARNING, CAUTION) and their STANDARD_TYPES label lookup."
+}

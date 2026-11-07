@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Text Escaping",
+  "note": "visit(Text)/escapeHtml: raw &, <, >, and \" characters must be HTML-escaped, and markdown backslash-escapes (\\*, \\_, \\#) must produce literal punctuation instead of triggering emphasis/heading parsing."
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Footnote Image Mid List",
+  "note": "MarkdownChunker.interruptFootnoteList: an image in the *second* of three footnotes, so the list is cut in two and picked up again with <ol start=\"2\"> - the numbering has to read 1, 2, 3 across the three blocks."
+}

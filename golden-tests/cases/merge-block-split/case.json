@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Block Split",
+  "mergeWith": "edited",
+  "note": "A chapter that was one H5P.AdvancedText - a heading and three paragraphs - with a quiz after it. The new Markdown puts an image into the middle of that run, so the renderer now emits text, image, text where there was one block: the old block corresponds to a *run* of new ones. The quiz must end up after the last piece, not next to the paragraph it happened to align with and certainly not before the image. That is what the forward walk in anchorEnds does, and why it steps over a block that resembles nothing (a picture) to reach one that does."
+}

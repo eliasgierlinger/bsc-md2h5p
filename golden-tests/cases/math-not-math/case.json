@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Math Not Math",
+  "note": "The case that pins the guard on single-dollar math (D21). A documentation repo is full of prices and shell variables, so `$...$` only counts when neither delimiter has whitespace just inside it and no digit follows the closing one; a candidate that fails is skipped rather than fatal, so \"costs $5 and $10 more\" finds no valid closer and stays text. Also here: escaped \\$, dollars inside inline code and a fenced block, and delimiters that never close. Nothing in this file may come out as a formula."
+}

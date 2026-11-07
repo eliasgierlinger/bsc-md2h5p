@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Folder No Markdown",
+  "note": "ChapterFolderResolver: no markdown files anywhere -> warning and root returned as-is"
+}

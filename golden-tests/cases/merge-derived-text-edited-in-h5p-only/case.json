@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Derived Text Edited In H5P Only",
+  "mergeWith": "edited",
+  "note": "Case 3 of D28's table: a block that came from Markdown was edited in H5P, and the Markdown did *not* change. The converted version still wins - editing generated text is not what the editor is for, and keeping both copies would only put the same paragraph in front of every student twice - but the merge says what it discarded. The counterpart is merge-derived-text-edited, where both sides changed and the outcome is identical, which is the point: one rule covers both."
+}

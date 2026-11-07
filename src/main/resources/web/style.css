@@ -1,0 +1,493 @@
+/*
+ * Hand-written rather than a CSS framework on purpose: the server is meant to run offline and in
+ * Docker, where a CDN <link> would leave the page unstyled, and a vendored framework would be a
+ * few hundred kilobytes of resources for one page with two forms and a result panel.
+ */
+
+:root {
+    color-scheme: light dark;
+
+    --bg: #f4f5f7;
+    --surface: #ffffff;
+    --surface-sunken: #f8f9fb;
+    --border: #dfe1e6;
+    --border-strong: #c3c7cf;
+    --text: #1c1f26;
+    --text-muted: #626b7a;
+    --accent: #3f51d0;
+    --accent-hover: #33429f;
+    --accent-soft: #ecefff;
+    --on-accent: #ffffff;
+    --warn-border: #e4bd63;
+    --warn-bg: #fdf6e6;
+    --warn-text: #7a5406;
+    --ok-border: #78bd8a;
+    --ok-bg: #eef8f0;
+    --ok-text: #245f34;
+    --error-border: #d98080;
+    --error-bg: #fdeeee;
+    --error-text: #8c2020;
+    --shadow: 0 1px 2px rgba(16, 20, 30, .06), 0 6px 20px rgba(16, 20, 30, .06);
+    --radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #14161b;
+        --surface: #1c1f26;
+        --surface-sunken: #22262f;
+        --border: #333844;
+        --border-strong: #454b59;
+        --text: #e7e9ee;
+        --text-muted: #9aa3b2;
+        --accent: #7d8cf5;
+        --accent-hover: #93a0ff;
+        --accent-soft: #262b3f;
+        /* The accent is light enough here that white on it would be the low-contrast pairing. */
+        --on-accent: #14161b;
+        --warn-border: #6d5721;
+        --warn-bg: #2a2416;
+        --warn-text: #e8c979;
+        --ok-border: #2f5c3c;
+        --ok-bg: #172319;
+        --ok-text: #93d3a5;
+        --error-border: #6b3030;
+        --error-bg: #2a1a1a;
+        --error-text: #f0a5a5;
+        --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 20px rgba(0, 0, 0, .25);
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 1rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.page {
+    max-width: 46rem;
+    margin: 0 auto;
+}
+
+/* ---------- header ---------- */
+
+.masthead {
+    padding: 2.5rem 0 1.75rem;
+}
+
+.masthead h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    letter-spacing: -.02em;
+}
+
+.masthead .arrow {
+    color: var(--accent);
+}
+
+.masthead p {
+    margin: .4rem 0 0;
+    color: var(--text-muted);
+}
+
+/* ---------- cards and tabs ---------- */
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+}
+
+.tabs {
+    display: flex;
+    gap: .4rem;
+    margin-bottom: -1px;
+}
+
+.tab {
+    appearance: none;
+    border: 1px solid transparent;
+    border-bottom: none;
+    border-radius: var(--radius) var(--radius) 0 0;
+    background: transparent;
+    color: var(--text-muted);
+    font: inherit;
+    font-weight: 500;
+    padding: .6rem 1.1rem;
+    cursor: pointer;
+}
+
+.tab:hover {
+    color: var(--text);
+}
+
+.tab[aria-selected="true"] {
+    background: var(--surface);
+    border-color: var(--border);
+    color: var(--text);
+}
+
+.panel[hidden] {
+    display: none;
+}
+
+.card--tabbed {
+    border-top-left-radius: 0;
+}
+
+.hint {
+    margin: 0 0 1.1rem;
+    color: var(--text-muted);
+    font-size: .9rem;
+}
+
+/* ---------- forms ---------- */
+
+.field {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.field > span {
+    display: block;
+    font-size: .85rem;
+    font-weight: 600;
+    letter-spacing: .01em;
+    margin-bottom: .35rem;
+}
+
+.field .optional {
+    font-weight: 400;
+    color: var(--text-muted);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: .6rem .75rem;
+    border: 1px solid var(--border-strong);
+    border-radius: 8px;
+    background: var(--surface-sunken);
+    color: var(--text);
+    font: inherit;
+}
+
+input[type="text"]:focus-visible,
+.tab:focus-visible,
+button:focus-visible,
+.dropzone:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.button {
+    appearance: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: var(--accent);
+    color: var(--on-accent);
+    font: inherit;
+    font-weight: 600;
+    padding: .6rem 1.25rem;
+    cursor: pointer;
+}
+
+.button:hover:not(:disabled) {
+    background: var(--accent-hover);
+}
+
+.button:disabled {
+    opacity: .55;
+    cursor: default;
+}
+
+.button--secondary {
+    background: var(--surface-sunken);
+    border-color: var(--border-strong);
+    color: var(--text);
+    font-weight: 500;
+    padding: .45rem .9rem;
+}
+
+.button--secondary:hover:not(:disabled) {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+}
+
+.button--link {
+    appearance: none;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font: inherit;
+    font-size: .85rem;
+    padding: 0 .2rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button--link:hover {
+    color: var(--error-text);
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    flex-wrap: wrap;
+}
+
+/* ---------- upload widget ---------- */
+
+.dropzone {
+    border: 2px dashed var(--border-strong);
+    border-radius: var(--radius);
+    background: var(--surface-sunken);
+    color: var(--text-muted);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    transition: background .12s ease, border-color .12s ease;
+}
+
+.dropzone strong {
+    color: var(--text);
+    display: block;
+    font-size: 1rem;
+}
+
+.dropzone small {
+    display: block;
+    margin-top: .3rem;
+}
+
+.dropzone.is-dragging {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+}
+
+/* The package picker is a button row that also takes a drop: the dashed border is there all
+   along but invisible, so lighting it up on drag does not shift the layout. */
+.packagepicker {
+    border: 2px dashed transparent;
+    border-radius: 8px;
+    margin: -.4rem -.5rem;
+    padding: .4rem .5rem;
+    transition: background .12s ease, border-color .12s ease;
+}
+
+.packagepicker.is-dragging {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+}
+
+.packagepicker .button--link[hidden] {
+    display: none;
+}
+
+.filelist {
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    max-height: 15rem;
+    overflow-y: auto;
+}
+
+.filelist:empty {
+    display: none;
+}
+
+.filelist li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .4rem .6rem;
+    border-bottom: 1px solid var(--border);
+    font-size: .9rem;
+}
+
+.filelist li:last-child {
+    border-bottom: none;
+}
+
+.filelist .path {
+    flex: 1;
+    overflow-wrap: anywhere;
+    font-family: ui-monospace, SFMono-Regular, "Cascadia Mono", Consolas, monospace;
+    font-size: .85rem;
+}
+
+.filelist .size {
+    color: var(--text-muted);
+    font-size: .8rem;
+    white-space: nowrap;
+}
+
+.filecount {
+    color: var(--text-muted);
+    font-size: .85rem;
+}
+
+/* ---------- busy state ---------- */
+
+.spinner {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid var(--border-strong);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin .7s linear infinite;
+    vertical-align: -.2rem;
+    margin-right: .5rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .spinner {
+        animation-duration: 2.5s;
+    }
+}
+
+.status {
+    color: var(--text-muted);
+    font-size: .9rem;
+}
+
+/* ---------- result ---------- */
+
+.result {
+    margin-top: 1.5rem;
+}
+
+.result[hidden] {
+    display: none;
+}
+
+.result h2 {
+    margin: 0 0 .25rem;
+    font-size: 1.15rem;
+}
+
+.result .filename {
+    color: var(--text-muted);
+    font-family: ui-monospace, SFMono-Regular, "Cascadia Mono", Consolas, monospace;
+    font-size: .85rem;
+    overflow-wrap: anywhere;
+}
+
+.download {
+    display: inline-block;
+    margin: 1rem 0 .25rem;
+    background: var(--accent);
+    color: var(--on-accent);
+    border-radius: 8px;
+    padding: .6rem 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.download:hover {
+    background: var(--accent-hover);
+}
+
+.notice {
+    border: 1px solid var(--border);
+    border-left-width: 4px;
+    border-radius: 6px;
+    padding: .75rem 1rem;
+    margin-top: 1.25rem;
+}
+
+.notice--ok {
+    border-color: var(--ok-border);
+    background: var(--ok-bg);
+    color: var(--ok-text);
+}
+
+.notice--error {
+    border-color: var(--error-border);
+    background: var(--error-bg);
+    color: var(--error-text);
+}
+
+.notice--error[hidden] {
+    display: none;
+}
+
+.warnings {
+    margin-top: 1.25rem;
+    border: 1px solid var(--warn-border);
+    border-radius: var(--radius);
+    background: var(--warn-bg);
+    color: var(--warn-text);
+    overflow: hidden;
+}
+
+.warnings > summary {
+    cursor: pointer;
+    padding: .75rem 1rem;
+    font-weight: 600;
+    list-style: none;
+}
+
+.warnings > summary::-webkit-details-marker {
+    display: none;
+}
+
+.warnings > summary::before {
+    content: "\25B8";
+    display: inline-block;
+    width: 1em;
+    transition: transform .12s ease;
+}
+
+.warnings[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.warnings ol {
+    margin: 0;
+    padding: 0 1rem 1rem 3rem;
+}
+
+.warnings li {
+    padding: .2rem 0;
+    overflow-wrap: anywhere;
+}
+
+.warnings .explain {
+    margin: 0 1rem 1rem;
+    font-size: .85rem;
+    opacity: .85;
+}
+
+/* ---------- footer ---------- */
+
+.colophon {
+    margin-top: 2.5rem;
+    color: var(--text-muted);
+    font-size: .85rem;
+}
+
+.colophon code {
+    background: var(--surface-sunken);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: .05rem .3rem;
+    font-size: .85em;
+}

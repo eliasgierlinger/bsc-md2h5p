@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Footnote Order And Reuse",
+  "note": "Covers footnote numbering/collection in MarkdownChunker: a definition placed before its reference (a) and one placed after its reference (b), numbering assigned in first-reference order rather than definition order (b is referenced before a, even though a is defined first), the same footnote referenced twice sharing one number, a defined-but-never-referenced footnote that must not appear in the output, and a reference with no matching definition falling back to the literal [^label] text."
+}

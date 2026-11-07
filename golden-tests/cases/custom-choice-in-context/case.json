@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Custom Choice In Context",
+  "note": "A quiz is a content block, not markup, so it interrupts the text exactly the way an image does - and every RenderContext that can enclose one has to answer for it. Pins all three: inside a blockquote (the callout div closes and reopens around it), inside an ordered list (the list resumes with a start so the numbering carries on, D23), and inside a footnote body (the section's ol is cut and resumed). None of this is quiz-specific code; it falls out of HtmlWriter.place."
+}

@@ -1,0 +1,1 @@
+Image "mystery" has no file extension and was skipped: H5P packages only accept .png, .jpg, .jpeg, .gif, .bmp, .tif, .tiff (webp and svg are rejected).

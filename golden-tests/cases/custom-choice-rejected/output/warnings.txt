@@ -1,0 +1,4 @@
+A multiplechoice block was left as a code block because it is empty.
+A multiplechoice block was left as a code block because no answer to "Who knows?" is marked correct - put a * in front of the ones that are.
+A singlechoice block was left as a code block because a question needs at least two answers to choose between, and "Is that all?" has 0.
+A singlechoice block was left as a code block because a question needs at least two answers to choose between, and "Lonely?" has 1.

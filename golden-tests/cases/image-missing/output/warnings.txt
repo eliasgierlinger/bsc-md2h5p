@@ -1,0 +1,2 @@
+Image with missing destination was ignored.
+Referenced path "ghost.png" could not be found and was skipped.

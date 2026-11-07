@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Metadata Churn",
+  "mergeWith": "edited",
+  "note": "The package came back from a real editing session, so the platform has rewritten the metadata of elements nobody opened - Moodle's validateMetadata writes license = 'U' into any element that lacks one and validateGroup fills in the rest of the metadata semantics' defaults, and the editor's metadata form writes title, authors and changes back on save. params is untouched: not one word of the chapter changed in H5P. While metadata was part of the hash this was indistinguishable from somebody rewriting the paragraph, and a merge after an ordinary session accused the teacher of an edit they had not made (D29). hashOf covers library and params only, so this case must merge silently - the reworded Markdown ships, the quiz stays under it, and warnings.txt is empty."
+}

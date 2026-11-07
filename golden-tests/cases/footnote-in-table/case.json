@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Footnote In Table",
+  "note": "Footnote reference inside a table cell: rendered into the table capture buffer, but the footnote section is still emitted at the end of the chapter."
+}

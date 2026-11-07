@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Code Fenced Escaping",
+  "note": "visit(FencedCodeBlock): literal code content containing <, >, &, and \" must be HTML-escaped rather than interpreted as markup."
+}

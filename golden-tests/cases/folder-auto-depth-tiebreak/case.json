@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Folder Auto Depth Tiebreak",
+  "note": "ChapterFolderResolver: neither candidate has a numbered file, so the shallower one wins"
+}

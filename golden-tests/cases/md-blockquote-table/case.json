@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Blockquote Table",
+  "note": "A table inside a blockquote: the table is a content block, so the callout's shaded <div> is closed before it and reopened after, exactly as an image already does. Before RenderContext the <div> was left open in one block and closed in the next, splitting an element across two content blocks."
+}

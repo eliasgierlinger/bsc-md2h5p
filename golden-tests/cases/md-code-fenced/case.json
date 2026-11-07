@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Code Fenced",
+  "note": "visit(FencedCodeBlock): a fenced block with an info string (language class attached) and one without an info string (no class attribute)."
+}

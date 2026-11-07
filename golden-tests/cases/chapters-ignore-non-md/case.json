@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Ignore Non Md",
+  "note": "BookFromFiles: non-markdown files in the folder are ignored"
+}

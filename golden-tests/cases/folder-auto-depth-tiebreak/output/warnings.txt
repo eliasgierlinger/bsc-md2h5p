@@ -1,0 +1,1 @@
+Folder "deep/nested" also contains markdown files and could be used to generate a book instead. Use the subfolder parameter with "deep/nested" to select it.

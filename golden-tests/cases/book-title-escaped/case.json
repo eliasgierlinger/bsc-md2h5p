@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Notes & <Drafts> \"2026\"",
+  "note": "The book title is free text - the web form now has a field for it - and it becomes two different things: the cover heading in content.json, where it is markup and therefore escaped, and the h5p.json title, where it is JSON and stays as written. It is also what the .h5p is named after; Packager.sanitizeFileName turns everything outside [A-Za-z0-9._-] into a single underscore, so a title holding a separator keeps its beginning instead of being cut back to the last path segment (the file name itself is not committed - golden .h5p files are gitignored - so this case pins the escaping)."
+}

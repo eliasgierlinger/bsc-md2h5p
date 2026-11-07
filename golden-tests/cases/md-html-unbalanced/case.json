@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Html Unbalanced",
+  "note": "H5PHtml.checkRawHtml: raw HTML that never closes a tag, and a closing tag that was never opened. Passed through as written, reported as a warning."
+}

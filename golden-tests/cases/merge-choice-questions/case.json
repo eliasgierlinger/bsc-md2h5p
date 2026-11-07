@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Choice Questions",
+  "mergeWith": "edited",
+  "note": "Two quizzes generated from Markdown, both rewritten, with a hand-written quiz added under the second one in H5P. Each generated quiz must align to its own counterpart and the addition must stay last. This is not free: a quiz's params are a question plus some ninety words of button labels and behavior flags that every MultiChoice shares, so measured whole, two entirely unrelated questions are 0.99 alike and every quiz in a book matches every other one. Similarity.CHROME is what excludes them, and this case is what says so - expect warnings.txt empty, both questions replaced by the new text, and the teacher's quiz still at the end."
+}

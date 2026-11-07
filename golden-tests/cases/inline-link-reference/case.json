@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Inline Link Reference",
+  "note": "Covers a reference-style link resolved via its LinkReferenceDefinition; visit(LinkReferenceDefinition) only visits children and renders nothing itself."
+}

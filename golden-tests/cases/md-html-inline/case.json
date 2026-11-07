@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Html Inline",
+  "note": "visit(HtmlInline): inline raw HTML is passed through verbatim, but <b> is not on H5P's tag list (only <strong> is), so it is reported."
+}

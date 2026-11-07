@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Table Inline Formatting",
+  "note": "Covers inline rendering (strong, code) reused unchanged inside TableCell via the buffer stack."
+}

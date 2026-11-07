@@ -1,0 +1,5 @@
+{
+  "mode": "upload",
+  "title": "Image Remote Rejected",
+  "note": "Covers ExternalImageFetcher's refusals, and only the ones that need no network: an address that is loopback or link-local, an IPv6 loopback in its bracket form, a scheme that is not handled, and a URL that does not parse. Every one is a warning and no image. The mode is 'upload' on purpose - the address guard applies to a clone or an upload and not to a local folder, since somebody converting their own notes can already open localhost themselves (PathPolicy.allowPrivateAddresses), so as a 'local' case this would really try to connect and its warnings would depend on what is listening. The fetches that succeed are deliberately not a golden case either: they would need the network and somebody else's server to stay up. See image-data-uri for the part of this class that can be pinned."
+}

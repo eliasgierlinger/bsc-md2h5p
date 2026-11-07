@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Mixed Numbered",
+  "note": "BookFromFiles: mix of numbered and unnumbered files -> all are kept, numbered first, with a warning naming the unnumbered ones."
+}

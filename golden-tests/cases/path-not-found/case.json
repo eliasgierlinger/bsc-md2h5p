@@ -1,0 +1,5 @@
+{
+  "mode": "upload",
+  "title": "Path Not Found",
+  "note": "A relative reference that escapes the chapter folder but points at a path that never exists anywhere (build/h5p_sources/nope.png), so PathSecurity's isFile check fails before the containment check ever runs - this hits the 'could not be found' warning, not the 'outside the allowed folder' one."
+}

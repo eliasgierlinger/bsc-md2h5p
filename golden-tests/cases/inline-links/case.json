@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Inline Links",
+  "note": "Covers visit(Link): with and without a title attribute, wrapping emphasis, and destinations needing HTML-attribute escaping (& and \"). Also pins the target attribute every link gets (D22): _blank on anything leaving the package."
+}

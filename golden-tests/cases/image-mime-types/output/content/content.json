@@ -1,0 +1,188 @@
+{
+    "showCoverPage": true,
+    "bookCover": {
+        "coverDescription": "<h2>Image Mime Types</h2>"
+    },
+    "chapters": [
+        {
+            "params": {
+                "content": [
+                    {
+                        "content": {
+                            "library": "H5P.AdvancedText 1.1",
+                            "params": {
+                                "text": "<h2 id=\"ch1-sample\">Sample</h2>\n"
+                            },
+                            "metadata": {
+                                "contentType": "Text",
+                                "license": "U",
+                                "title": "Untitled Text",
+                                "extraTitle": "Untitled Text",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:5d4e5a0ba5a383d28c8bbfb3\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "2f00a97b-105e-9046-97b6-0218ac2d13c6"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "decorative": false,
+                                "contentName": "Image",
+                                "expandImage": "Expand Image",
+                                "minimizeImage": "Minimize Image",
+                                "file": {
+                                    "path": "images/a-95b7ef5ca1681df14306e9fe.gif",
+                                    "mime": "image/gif",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1920,
+                                    "height": 1080
+                                },
+                                "alt": "gif",
+                                "title": "gif"
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "gif",
+                                "extraTitle": "gif",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:bcf09c8b3155039741dcb09f\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "454e712b-26bd-aa20-f872-0941fa480cd8"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "decorative": false,
+                                "contentName": "Image",
+                                "expandImage": "Expand Image",
+                                "minimizeImage": "Minimize Image",
+                                "file": {
+                                    "path": "images/d-d3173b7855cbdc6c86f9eebb.bmp",
+                                    "mime": "image/bmp",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1920,
+                                    "height": 1080
+                                },
+                                "alt": "bmp",
+                                "title": "bmp"
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "bmp",
+                                "extraTitle": "bmp",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:de741345373a195be33205fe\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "4b5abfde-ba9d-b71f-235d-b354f15a3b74"
+                        },
+                        "useSeparator": "disabled"
+                    },
+                    {
+                        "content": {
+                            "library": "H5P.Image 1.1",
+                            "params": {
+                                "decorative": false,
+                                "contentName": "Image",
+                                "expandImage": "Expand Image",
+                                "minimizeImage": "Minimize Image",
+                                "file": {
+                                    "path": "images/e-1c74a4a07a2fd1fc19d8b814.jpeg",
+                                    "mime": "image/jpeg",
+                                    "copyright": {
+                                        "license": "U"
+                                    },
+                                    "width": 1920,
+                                    "height": 1080
+                                },
+                                "alt": "uppercase ext",
+                                "title": "uppercase ext"
+                            },
+                            "metadata": {
+                                "contentType": "Image",
+                                "license": "U",
+                                "title": "uppercase ext",
+                                "extraTitle": "uppercase ext",
+                                "authors": [],
+                                "changes": [],
+                                "authorComments": "md2h5p:1.3:block:221c44b524b2c1ec1396b4f6\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+                            },
+                            "subContentId": "97d3f2e1-1d09-2461-15e2-19b531080932"
+                        },
+                        "useSeparator": "disabled"
+                    }
+                ]
+            },
+            "library": "H5P.Column 1.22",
+            "subContentId": "39efcc1a-67bf-2040-e7ab-3fc9f94731dc",
+            "metadata": {
+                "contentType": "Page",
+                "license": "U",
+                "title": "Sample",
+                "extraTitle": "Sample",
+                "authors": [],
+                "changes": [],
+                "authorComments": "md2h5p:1.3:chapter:1_Sample.md\nKeep line 1 so md2h5p can update this book from Markdown. The rest is yours."
+            }
+        }
+    ],
+    "behaviour": {
+        "baseColor": "#1768c4",
+        "defaultTableOfContents": true,
+        "progressIndicators": true,
+        "progressAuto": true,
+        "displaySummary": true,
+        "enableRetry": true
+    },
+    "read": "Read",
+    "displayTOC": "Display 'Table of contents'",
+    "hideTOC": "Hide 'Table of contents'",
+    "nextPage": "Next page",
+    "previousPage": "Previous page",
+    "chapterCompleted": "Page completed!",
+    "partCompleted": "@pages of @total completed",
+    "incompleteChapter": "Incomplete page",
+    "navigateToTop": "Navigate to the top",
+    "markAsFinished": "I have finished this page",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "bookProgressSubtext": "@count of @total pages",
+    "interactionsProgressSubtext": "@count of @total interactions",
+    "submitReport": "Submit Report",
+    "restartLabel": "Restart",
+    "summaryHeader": "Summary",
+    "allInteractions": "All interactions",
+    "unansweredInteractions": "Unanswered interactions",
+    "scoreText": "@score / @maxscore",
+    "leftOutOfTotalCompleted": "@left of @max interactions completed",
+    "noInteractions": "No interactions",
+    "score": "Score",
+    "summaryAndSubmit": "Summary &amp; submit",
+    "noChapterInteractionBoldText": "You have not interacted with any pages.",
+    "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+    "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+    "bookProgress": "Book progress",
+    "interactionsProgress": "Interactions progress",
+    "totalScoreLabel": "Total score",
+    "a11y": {
+        "progress": "Page @page of @total.",
+        "menu": "Toggle navigation menu"
+    },
+    "page": "Page",
+    "next": "Next",
+    "previous": "Previous"
+}

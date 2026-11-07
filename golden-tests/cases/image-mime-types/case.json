@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Mime Types",
+  "note": "mimeTypeOf plus the extension whitelist: gif, bmp and an uppercase .JPEG are packed; svg and webp are not in the intersection of the two platforms' whitelists and are skipped with a warning."
+}

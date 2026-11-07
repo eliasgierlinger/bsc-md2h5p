@@ -1,0 +1,1 @@
+Blocks of chapter "Practice" appear to have changed places in the Markdown. The alignment cannot follow a reordering, so something added in H5P may now sit under a different paragraph than it did before. Check that chapter.

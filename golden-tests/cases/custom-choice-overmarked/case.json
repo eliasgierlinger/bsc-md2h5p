@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Custom Choice Overmarked",
+  "note": "A singlechoice block with two answers starred. Not a rejection - the question is still answerable, it just says more than the syntax can carry - so the first starred answer becomes the key, the rest become distractors, and the warning says to use multiplechoice instead. Pins the one place where CustomRenderer changes the meaning of what the author wrote rather than refusing it."
+}

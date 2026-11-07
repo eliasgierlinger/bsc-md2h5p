@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Empty Content",
+  "note": "flushTextBuffer skips blocks whose visible text is empty: a chapter containing only an HTML comment and an empty <div></div> must produce zero text content blocks."
+}

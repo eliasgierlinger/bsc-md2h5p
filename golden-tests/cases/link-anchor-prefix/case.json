@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Link Anchor Prefix",
+  "note": "Anchor ids are namespaced per chapter (D19). Interactive Book keeps several chapters in one document - preloadChapter initializes chapter t and t+1 and never tears them down - so two chapters sharing a heading text or a footnote label used to emit the same id twice. Both chapters here do; the ids come out as ch1-summary/ch2-summary and fn-ch1-note/fn-ch2-note, and the same-chapter links are rewritten to match. The in-page links also carry target=\"_self\" (D22), which is what makes them do anything at all."
+}

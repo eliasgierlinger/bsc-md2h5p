@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Inline Code",
+  "note": "Covers visit(Code), including literal content that needs HTML escaping (&, <, >, \")."
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Chapter Added In Editor",
+  "mergeWith": "edited",
+  "note": "A whole chapter was added in H5P, between two chapters that came from Markdown. It carries no md2h5p marker, so it is recognized as an addition and anchored the same way a block is - one level up. It has to come back between the same two chapters, not appended at the end."
+}

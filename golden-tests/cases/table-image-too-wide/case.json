@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Table Image Too Wide",
+  "note": "A 5-column table with an image: H5P.Row caps at four columns, so the table stays a real H5P.Table and the image is announced in the cell and committed as its own block right after the table."
+}

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Chapters Order Lexicographic",
+  "note": "BookFromFiles: chapters are ordered by the numeric value of the prefix, so 10_C.md sorts after 2_B.md and not between 1_A.md and 2_B.md."
+}

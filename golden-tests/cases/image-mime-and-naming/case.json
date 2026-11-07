@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Mime And Naming",
+  "note": "Covers mimeTypeOf() extension-based detection (.jpg -> image/jpeg, no extension -> falls back to image/png) and ImageResolver.packedNameFor()'s sanitization of a source file name containing spaces and parentheses."
+}

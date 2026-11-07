@@ -1,0 +1,3 @@
+"1_Intro.md" links to "3_Setup.md". Due to technical limitations, links to other files cannot be rendered as actual links, so the link is rendered as a reference to chapter 3 instead.
+"1_Intro.md" links to "appendix.md", which is not a chapter of this book. The link text is kept, the link itself is dropped.
+"2_Usage.md" links to "1_Intro.md". Due to technical limitations, links to other files cannot be rendered as actual links, so the link is rendered as a reference to chapter 1 instead.

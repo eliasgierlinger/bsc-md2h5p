@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Link Md Crosschapter",
+  "note": "Links between Markdown files without a book id (D20). A link to another chapter cannot work - Interactive Book only navigates on a hash fragment carrying the content id the platform assigns on upload - so it becomes a reference naming the chapter, with a warning. A link into the same chapter, an in-page anchor and an external URL are unaffected; a .md that is not a chapter loses its link. Every anchor also names the frame it is followed in (D22): _self here, _blank on the external URL - without it H5P's own <base target=\"_parent\"> sends the click to the page around the book and nothing happens."
+}

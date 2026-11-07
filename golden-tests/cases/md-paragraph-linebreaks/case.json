@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Md Paragraph Linebreaks",
+  "note": "visit(Paragraph)/visit(SoftLineBreak)/visit(HardLineBreak): a plain paragraph, a soft break (single newline), and hard breaks via trailing double-space and via trailing backslash."
+}

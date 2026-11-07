@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Folder Auto Dotdir Skipped",
+  "note": "ChapterFolderResolver: dot-directories are skipped by the walk, so markdown inside them is invisible"
+}

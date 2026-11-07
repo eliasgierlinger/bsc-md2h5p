@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Emphasis List",
+  "note": "Covers the open-tag-stack close/reopen dance in MarkdownChunker.visit(Image) for images nested inside inline formatting and inside a list item: the surrounding <em>/<li> tags must be closed before the image's own content block and reopened for the text that follows."
+}

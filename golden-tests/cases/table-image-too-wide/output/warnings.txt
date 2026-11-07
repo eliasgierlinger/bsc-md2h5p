@@ -1,0 +1,1 @@
+Image "cell.png" is inside a table cell, where H5P allows no images. The table has too many columns to be rebuilt as a row layout, so the image is shown as its own block directly after the table.

@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Link Wikilink",
+  "note": "Obsidian-style [[wiki links]], parsed by WikiLinkProcessor. Registered as a LinkProcessor rather than an inline parser because InlineParserImpl handles '[' in a hard-coded switch before any custom parser is asked. A wiki link resolves by chapter *name*, and a #Section is run through the same IdGenerator that produced the heading id - visible on the same-chapter [[Notes#Not A Wiki Link]], since a link to another chapter is only a reference (D20). The case exists mainly for what must NOT change: [[ -f x ]] in a fenced block, `[[literal]]` in inline code, a shortcut reference and a bare bracket pair - all out of reach because this happens on the AST, not on the source text. ![[photo.png]] is the embed form and becomes an image."
+}

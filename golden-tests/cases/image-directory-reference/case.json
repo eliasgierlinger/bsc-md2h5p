@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Directory Reference",
+  "note": "An image path that points at a directory instead of a file: resolveCandidate's isFile check fails, so it is reported as not found rather than packed."
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Addition Kept",
+  "mergeWith": "edited",
+  "note": "The base case: a quiz was added in H5P between the table and the paragraph after it, and the Markdown has not changed. The quiz must come back out between exactly those two blocks, with its own subContentId untouched, and h5p.json must list H5P.MultiChoice - the dependency is unioned from the edited package, or the block would be content nothing can render. Also pins that a library the typed content model knows nothing about survives verbatim: the merge works on JsonElement precisely so it never has to understand H5P.MultiChoice."
+}

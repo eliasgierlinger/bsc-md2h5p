@@ -1,0 +1,6 @@
+{
+  "mode": "local",
+  "title": "Merge Chapter Added In Markdown",
+  "mergeWith": "edited",
+  "note": "A new .md file was written between two chapters that already existed, and the chapters after it were renumbered to make room. Nothing here needs alignment - the merge is built on the fresh conversion, so a chapter no old chapter maps onto is simply already in it, whole and in its place - but that is worth pinning, because it is half of what the feature promises and it would break silently if the result were ever built on the edited package instead. The renumbering is part of the case: the two chapters that moved are matched by their file names reduced the same way merge-chapter-renumbered relies on, and the quiz added under Setup has to stay in Setup rather than follow the new chapter that now sits after it."
+}

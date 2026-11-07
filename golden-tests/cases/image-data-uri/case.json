@@ -1,0 +1,5 @@
+{
+  "mode": "local",
+  "title": "Image Data Uri",
+  "note": "Covers the data: URLs ExternalImageFetcher decodes and the ones it refuses. A base64 PNG and a percent-encoded GIF are packed like any other image - same content hash, same packed name, and the two references to the same PNG share one entry. Refused, each with a warning: a type H5P does not accept (webp), a data URL that is not an image at all, base64 that does not decode, and one with no data. Nothing here touches the network, which is why the successful path can be a golden case at all - unlike an http image, whose success depends on somebody else's server."
+}
