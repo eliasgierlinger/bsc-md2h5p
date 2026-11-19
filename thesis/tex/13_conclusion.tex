@@ -1,0 +1,45 @@
+\section{Conclusion}
+\label{sec:conclusions}
+
+Lecture notes are comfortable to write in Markdown and comfortable to read as H5P content in Moodle.
+This thesis presented md2h5p, a converter that turns a folder of Markdown files, a Git
+repository, or uploaded files into an Interactive Book package.
+Every file becomes a chapter. Text, formatting, images, tables, links, footnotes, and code are
+carried over.
+Where the target cannot represent a construct, the converter replaces it in a defined way and issues
+a warning.
+A conversion always produces a book, and its warnings list what the author has to check.
+
+Most of the work follows from what the target does not accept.
+The text of an H5P block passes through a sanitizer that keeps a short list of tags and silently removes all
+others.
+This list is defined per library but is not documented.
+The first contribution of this thesis is therefore this list, derived from the implementation and given in
+\autoref{tab:allowed}.
+Block quotes, deep headings, inserted text, and code boxes are replaced by substitutes built from the
+few properties that survive.
+Images and tables, in contrast, cannot be markup and become separate content blocks.
+Where such a block is placed inside a list, a quote, a footnote, or a table cell is decided by a stack
+of render contexts, in which each enclosing construct defines its own behavior.
+A table containing an image is rebuilt as a pseudo-table.
+Links within a chapter use anchors with ids that are unique across the book.
+Links to other chapters, however, are not possible, because the required identifier is assigned by the
+platform's database.
+Two additions go beyond plain Markdown.
+A question syntax uses the info string of a fenced code block as its extension point and remains
+valid Markdown in other tools.
+A merge combines a new conversion with a package that was edited in H5P, so a book can be extended in H5P
+and still regenerated from its source.
+
+Lecturers can keep writing in Markdown, with version control, and no longer have to transfer the
+material by hand after every change.
+At the same time, what they add in the H5P editor is kept at the next conversion.
+Students, in turn, get content that is embedded in their platform, with navigation and progress tracking and
+without additional software.
+
+Most of what this thesis states about the platform was derived from its source code, since the
+documentation does not cover it.
+A design log kept during development records each encountered issue and every decision together with
+any rejected alternatives.
+Reading the implementation is therefore a starting point for a converter that has to meet an
+undocumented contract, while testing on the real platform is necessary to confirm it.

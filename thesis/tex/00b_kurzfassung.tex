@@ -1,0 +1,31 @@
+\section*{Kurzfassung}
+\label{sec:kurzfassung}
+\addcontentsline{toc}{section}{\nameref{sec:kurzfassung}}
+
+Die Syntax von Markdown ist klein und gut lesbar, weshalb sie sich zum Verfassen von
+Dokumentation eignet: Da es sich um reinen Text handelt, kann er in jedem beliebigen Texteditor geöffnet und
+bearbeitet werden, und Änderungen daran lassen sich mühelos von Versionsverwaltungssystemen
+nachverfolgen.
+Für das Schreiben von Lehrmaterial ist Markdown allerdings nur bedingt geeignet -- nicht, weil es
+selbst zu kurz griffe, sondern weil das Lernmanagementsystem Moodle es nicht unterstützt.
+In Moodle können Inhalte als H5P-Pakete in einem browserbasierten Editor erstellt werden.
+Das bedeutet jedoch, dass in Markdown verfasstes Material von Hand portiert wird, und diese
+Portierung wiederholt sich bei jeder Änderung der Quelle.
+H5P-Pakete lassen sich für verschiedene Inhaltstypen erzeugen, von denen Interactive Book
+Markdown-Dateien am ehesten gerecht wird: Dieser Typ gliedert Inhalte in Kapitel, wobei jedes
+Kapitel aus einzelnen Inhaltsblöcken besteht.
+Diese Blöcke stammen aus einer kleinen Auswahl von Inhaltstypen, die festlegen, was
+worin verschachtelt werden darf.
+Manche Markdown-Konstrukte -- etwa ein
+Bild in einer Tabellenzelle -- haben daher keine unmittelbare Entsprechung.
+Die vorliegende Arbeit lotet die Grenzen des H5P-Inhaltstyps Interactive Book aus und stellt
+md2h5p vor, einen Konverter, der einen Ordner mit Markdown-Dateien in ein H5P Interactive
+Book überführt.
+Er übersetzt jede Markdown-Datei in ein Kapitel, findet für Markdown-Konstrukte, die H5P nicht
+direkt unterstützt, geeignete Alternativen und gibt Warnungen für Markdown aus, das sich nur in
+verminderter Form -- oder gar nicht -- darstellen lässt.
+Eine Erweiterung ergänzt Single- und Multiple-Choice-Fragen, die als eingezäunte Codeblöcke in
+Markdown geschrieben werden, und ein Merge-Schritt verbindet eine neue Konvertierung mit einem
+Paket, das zwischenzeitlich im H5P-Editor bearbeitet wurde.
+Lehrende können somit weiterhin in Markdown schreiben, ihr Material auch nach der Veröffentlichung
+überarbeiten und ihren Studierenden dennoch Inhalte bereitstellen, die die Plattform einbetten kann.

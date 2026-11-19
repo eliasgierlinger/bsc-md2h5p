@@ -1,0 +1,197 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[a4paper, margin=1.25in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}      % for [H]: keep a float where it is declared
+\usepackage[pdfa]{hyperref}   %for \url
+\usepackage{listings}   % for code listings
+%\usepackage[T1]{fontenc}% for correct underscore
+%\usepackage{epstopdf}   % convert .eps to .pdf
+\usepackage{textcomp}   % for TM symbol
+\usepackage{caption}    % for subfigures
+\usepackage{subfig}     % for subfigures
+\usepackage{pdfpages}   % to include PDF coversheet \includepdf
+\usepackage{booktabs}	% for table rules
+\usepackage{amssymb}	% for \checkmark in tables
+\usepackage{array}		% for table column widths
+\usepackage{xcolor}     % listing colors and the screenshot placeholder
+%\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+% -------------------------------
+% --- some layout definitions ---
+% -------------------------------
+
+% define line line spacing = 1.1
+\renewcommand{\baselinestretch}{1.1}
+
+% define second level for `itemizing'
+\renewcommand{\labelitemii}{-}
+
+% Sections and subsections in the table of contents, nothing below. \paragraph is used throughout
+% to group text without adding a heading level, which only works if the paragraphs stay out of the
+% contents - that is the point of using them instead of a fourth level.
+\setcounter{tocdepth}{2}
+
+%----------------------------------------------------------------------------------------
+%	HYPERLINK SETTINGS
+%----------------------------------------------------------------------------------------
+
+\hypersetup{
+	colorlinks,%
+	citecolor=black,%
+	filecolor=black,%
+	linkcolor=black,%
+	urlcolor=black
+}
+
+%----------------------------------------------------------------------------------------
+%	Listing SETTINGS
+%----------------------------------------------------------------------------------------
+
+\lstset{
+	basicstyle=\ttfamily\small,
+	keywordstyle=\ttfamily,
+	stringstyle=\ttfamily,
+	commentstyle=\ttfamily,
+	captionpos=b,
+	frame=single,
+	breaklines=true,
+	breakatwhitespace=true,
+	showstringspaces=false,
+	upquote=true,
+	columns=fullflexible,
+	keepspaces=true,
+	xleftmargin=2pt,
+	framexleftmargin=2pt
+}
+
+% Kotlin support for source-code listings; other listings keep the default style.
+\lstdefinelanguage{Kotlin}{
+    sensitive=true,
+    morekeywords={abstract,as,break,class,companion,const,continue,data,do,else,
+        enum,false,for,fun,if,import,in,interface,is,null,object,open,override,
+        package,private,protected,public,return,sealed,super,this,throw,true,
+        try,typealias,val,var,when,while},
+    morecomment=[l]{//},
+    morecomment=[s]{/*}{*/},
+    morestring=[b]",
+    keywordstyle=\color{blue!60!black},
+    stringstyle=\color{green!40!black},
+    commentstyle=\color{black!55}\itshape
+}
+
+% Add new commands
+% Typewriter-font for code (and allow splitting in typewriter font).
+% With T1 encoding the typewriter font turns "--" into an en dash, so \code{--output} lost a
+% hyphen; microtype's ligature switch keeps the two hyphens. Protrusion and expansion are off,
+% so nothing else about the typesetting changes.
+\usepackage[protrusion=false,expansion=false]{microtype}
+\DisableLigatures[-]{encoding=T1, family=tt*}
+\newcommand{\code}[1]{\texttt{#1}}
+% NOTE: the template shipped this line with a doubled opening brace, which left a group open
+% for the whole document and made \begin{document} fail once a package is loaded there.
+{\ttfamily \hyphenchar\the\font=`\-}%
+
+%----------------------------------------------------------------------------------------
+%	DRAFT SCAFFOLD -- REMOVE BEFORE SUBMISSION
+%----------------------------------------------------------------------------------------
+% Two parts of the evaluation (the lecture-notes case study and the timing) are not done yet
+% and are kept as bullet points inside a todo environment.
+
+\newenvironment{todo}{\noindent\emph{To be completed -- ideas so far:}\begin{itemize}}{\end{itemize}}
+
+% A screenshot that still has to be taken: a framed box saying what should be on it.
+\newcommand{\screenshot}[1]{%
+	\fbox{\parbox{0.9\columnwidth}{\centering\vspace{1.2em}%
+		\textcolor{gray}{\emph{Screenshot to be taken.}}\\[0.3em]
+		\small #1\vspace{1.2em}}}}
+
+% Circled numbers, matching the numbered badges in the figures (writing guide, appendix A).
+% Plain \textcircled rather than tikz, so the macro also works inside captions and boxes.
+\DeclareRobustCommand*\circled[1]{\raisebox{.4pt}{\textcircled{\raisebox{-.6pt}{\scriptsize #1}}}}
+
+% Autoref should not write subsubsection, but section
+\renewcommand{\sectionautorefname}{Section}
+\let\subsectionautorefname\sectionautorefname
+\let\subsubsectionautorefname\sectionautorefname
+\let\paragraphautorefname\sectionautorefname
+
+% yes/no marks for the sanitizer table (tab:allowed)
+\newcommand{\tyes}{$\checkmark$}
+\newcommand{\tno}{--}
+
+% Autoref should used Figure also for subfigures
+\newcommand{\subfigureautorefname}{\figureautorefname}
+
+% each section should start on the right-hand side of the work
+% thus, we sometimes have to add manual white pages
+% - use \newpage to create empty pages
+% --- \null fakes that there is some content on the page, otherwise two consecutive \newpage would not work
+% --- \thispagestyle{empty} removes page numbers on the empty page
+\begin{document}
+
+% ------------------------------------
+% for cover page and assignment sheet we do not want to have page numbers (pagestyle empty)
+\pagestyle{empty}
+\includepdf{./pdfs/Cover.pdf}
+\newpage
+\includepdf[pages=-]{./pdfs/Topic.pdf}
+\newpage
+
+% ------------------------------------
+% for abstract, kurzfassung, table of content we set the page number to roman numbers
+\pagestyle{plain}
+\renewcommand{\thepage}{\roman{page}}
+
+\setcounter{page}{1}
+\input{./tex/00a_abstract.tex}
+\input{./tex/00b_kurzfassung.tex}
+\newpage
+
+\setcounter{page}{2}
+\input{./tex/00c_contents.tex}
+\newpage
+
+% ------------------------------------
+% starting from the introduction, we switch back to arabic numbers and start page numbering with 1 again
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+% it is up to you to have a separate .tex file per section or to put everything directly into this document
+\input{./tex/01_introduction.tex}
+\newpage
+\input{./tex/02_background.tex}
+\newpage
+\input{./tex/03_usage.tex}
+\newpage
+\input{./tex/04_overview.tex}
+\newpage
+
+% --- main chapters ---
+\input{./tex/05_files.tex}
+\newpage
+\input{./tex/06_rendering.tex}
+\newpage
+\input{./tex/07_blocks.tex}
+\newpage
+\input{./tex/08_extensions.tex}
+\newpage
+\input{./tex/09_merge.tex}
+\newpage
+
+% --- closing ---
+\input{./tex/10_evaluation.tex}
+\newpage
+\input{./tex/11_related_work.tex}
+\newpage
+\input{./tex/12_limitations.tex}
+\newpage
+\input{./tex/13_conclusion.tex}
+\newpage
+\input{./tex/99_literature.tex}
+\newpage
+
+\end{document}

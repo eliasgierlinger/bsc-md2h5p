@@ -1,0 +1,16 @@
+\section*{Abstract}
+\label{sec:abstract}
+\addcontentsline{toc}{section}{\nameref{sec:abstract}}
+
+Markdown's syntax is small and easily readable, which makes it well suited to writing documentation: being plain text, it can be opened and edited in a regular text editor, and its changes can easily be tracked by version control systems.
+Using it for writing teaching materials is not ideal, though, not because Markdown itself falls short, but because the Moodle learning management system does not support it.
+In Moodle, material can be authored as H5P packages in a browser-based editor.
+This, however, means content written in Markdown is ported by hand, and the port is repeated every time the source changes.
+H5P packages can be created for different content types, the most apt of which for representing Markdown files is Interactive Book: it represents content as chapters, each chapter made up of content blocks.
+Those blocks come from a small set of content types with fixed nesting rules, so some Markdown constructs -- an image inside a table cell, for instance -- have no direct counterpart.
+This thesis derives the limits of H5P's Interactive Book type and presents md2h5p, a converter that turns a folder of Markdown files into an H5P Interactive Book.
+It renders each Markdown file into a chapter, finds alternatives for the Markdown constructs H5P does not support directly, and warns about constructs that can only be represented in a degraded form or not at all.
+An extension adds single- and multiple-choice questions, written as Markdown fenced code blocks, and a
+merge step folds a fresh conversion back into a package that has since been edited in the H5P editor.
+Teachers can therefore keep authoring in Markdown, revise it after publication, and still
+hand their students content the platform can embed.

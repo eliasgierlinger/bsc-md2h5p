@@ -1,0 +1,75 @@
+\section{Limitations and Future Work}
+\label{sec:limitations}
+
+A successful conversion does not preserve every aspect of the source.
+Some differences follow from the content types and HTML that H5P accepts; others follow from the
+converter's treatment of Markdown.
+\autoref{tab:limitations} summarizes the main approximations and losses.
+
+\subsection{Approximations and Information Loss}
+\label{sec:lm_conversion}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.23\columnwidth}>{\raggedright\arraybackslash}p{0.73\columnwidth}@{}}
+\toprule
+Construct & Limitation or Approximation \\
+\midrule
+Headings and lists & Headings are shifted down one level and clamped at \code{h3}. Tight lists receive the spacing of loose lists. \\
+\addlinespace[2pt]
+Quotes and inline formatting & Block quotes and alerts become shaded boxes, inserted text receives a green background, and task list checkboxes become characters. \\
+\addlinespace[2pt]
+Image placement & Images become separate content blocks, interrupting surrounding lists, quotes, or footnotes. \\
+\addlinespace[2pt]
+Image size & Image blocks have a width attribute, but it is ignored: images occupy the full width of their column. Markdown image size attributes therefore have no effect. \\
+\addlinespace[2pt]
+Image formats and availability & Unsupported formats, including SVG, and unavailable images are omitted with a warning. \\
+\addlinespace[2pt]
+Tables with images & Tables with up to four columns become pseudo-tables. Wider tables retain placeholders and place the images below the table. \\
+\addlinespace[2pt]
+Footnotes & References use bracketed numbers, and the notes form an ordered list at the end of the chapter. \\
+\addlinespace[2pt]
+Links & Links to other chapters become textual references. Links to Markdown files outside the book lose their destination. \\
+\addlinespace[2pt]
+Raw HTML & Tags and styles remain subject to the platform's restrictions. Hand-written anchors and links are not rewritten and may therefore collide with generated ids or target the wrong frame. \\
+\addlinespace[2pt]
+Code and questions & Unknown code languages remain uncolored. Malformed question blocks fall back to code with a warning. \\
+\addlinespace[2pt]
+Formulas in tables & An unescaped vertical bar splits a table cell before formula parsing. Authors must write \code{\textbackslash|} or \code{\textbackslash{}mid} instead. \\
+\addlinespace[2pt]
+Metadata & YAML front matter is discarded, and chapter titles derived from file names are not capitalized automatically. \\
+\bottomrule
+\end{tabular}
+\caption[Approximations and information loss]{The main approximations and information loss during conversion. Warnings identify unsupported input, but visual inspection in the player remains necessary.}
+\label{tab:limitations}
+\end{table}
+
+\subsection{Deployment and Merge Limitations}
+\label{sec:lm_platform}
+
+Formulas require the \code{H5P.MathDisplay} add-on on the target site.
+The first upload also requires permission to install any bundled libraries that the site does not
+already provide.
+These requirements cannot be satisfied by the package alone.
+
+Beyond these deployment requirements, the merge can misplace additions when generated blocks are reordered or closely resemble one another.
+In addition, generated blocks deleted in H5P reappear after merging, since Markdown remains their source.
+Library versions are adjusted without running the libraries' migrations, so these changes produce a
+warning.
+
+\subsection{Future Work}
+\label{sec:lm_future}
+
+The question syntax could be extended with further question types,
+such as fill-in-the-blank or true/false questions.
+Each would need a readable fence syntax and a renderer for the corresponding H5P library.
+The existing placement mechanism could then handle the resulting blocks.
+
+Packaging could also include only the libraries a book actually uses.
+This would reduce package size and the repeated archive work,
+but the merge would also need to account for the changing set of libraries.
+
+Finally, automatic rebuilds could run the CLI in a repository's CI pipeline and publish the resulting
+package as a build artifact after each change.
+Uploading it to Moodle, however, would remain a manual step.

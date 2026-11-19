@@ -1,0 +1,64 @@
+<mxfile host="md2h5p-thesis" type="device">
+  <diagram name="regular-table" id="regular-table">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="900" pageHeight="1000">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="markdown" value="Markdown" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontStyle=1;align=center;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="0" width="180" height="18" />
+        </mxCell>
+        <mxCell id="blocks" value="Content Blocks" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontStyle=1;align=center;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="240" y="0" width="220" height="18" />
+        </mxCell>
+        <mxCell id="md0" value="| Step  | Status |" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontFamily=Latin Modern Mono;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="38" width="180" height="16" />
+        </mxCell>
+        <mxCell id="md1" value="| ----- | ------ |" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontFamily=Latin Modern Mono;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="54" width="180" height="16" />
+        </mxCell>
+        <mxCell id="md2" value="| Login | Ready  |" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontFamily=Latin Modern Mono;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="70" width="180" height="16" />
+        </mxCell>
+        <mxCell id="md3" value="| Done  | OK     |" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontFamily=Latin Modern Mono;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="86" width="180" height="16" />
+        </mxCell>
+        <mxCell id="column" value="" style="rounded=0;html=0;fillColor=#fafafa;strokeColor=#666666;dashed=1;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="240" y="22" width="220" height="150" />
+        </mxCell>
+        <mxCell id="column-label" value="H5P.Column" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontStyle=2;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="244" y="24" width="150" height="16" />
+        </mxCell>
+        <mxCell id="table-block" value="" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#000000;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="250" y="44" width="200" height="118" />
+        </mxCell>
+        <mxCell id="table-label" value="H5P.Table" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontStyle=2;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="254" y="46" width="150" height="16" />
+        </mxCell>
+        <mxCell id="cell00" value="Step" style="rounded=0;html=0;align=left;spacingLeft=7;fontSize=10;strokeColor=#999999;fillColor=#f2f2f2;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="260" y="68" width="90" height="28" />
+        </mxCell>
+        <mxCell id="cell01" value="Status" style="rounded=0;html=0;align=left;spacingLeft=7;fontSize=10;strokeColor=#999999;fillColor=#f2f2f2;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="350" y="68" width="90" height="28" />
+        </mxCell>
+        <mxCell id="cell10" value="Login" style="rounded=0;html=0;align=left;spacingLeft=7;fontSize=10;strokeColor=#999999;fillColor=#ffffff;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="260" y="96" width="90" height="28" />
+        </mxCell>
+        <mxCell id="cell11" value="Ready" style="rounded=0;html=0;align=left;spacingLeft=7;fontSize=10;strokeColor=#999999;fillColor=#ffffff;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="350" y="96" width="90" height="28" />
+        </mxCell>
+        <mxCell id="cell20" value="Done" style="rounded=0;html=0;align=left;spacingLeft=7;fontSize=10;strokeColor=#999999;fillColor=#ffffff;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="260" y="124" width="90" height="28" />
+        </mxCell>
+        <mxCell id="cell21" value="OK" style="rounded=0;html=0;align=left;spacingLeft=7;fontSize=10;strokeColor=#999999;fillColor=#ffffff;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="350" y="124" width="90" height="28" />
+        </mxCell>
+        <mxCell id="arrow" style="html=0;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Latin Modern Roman;" parent="1" edge="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="190" y="90" />
+            <mxPoint as="targetPoint" x="234" y="90" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

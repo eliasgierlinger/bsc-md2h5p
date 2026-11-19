@@ -1,0 +1,49 @@
+<mxfile host="md2h5p-thesis" type="device">
+  <diagram name="merge-dice" id="merge-dice">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="900" pageHeight="1000">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title0" value="Old Text" style="text;html=0;whiteSpace=nowrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="0" width="85" height="20" />
+        </mxCell>
+        <mxCell id="phrase0" value="the build has two stages" style="text;html=0;whiteSpace=nowrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=0;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="90" y="0" width="330" height="20" />
+        </mxCell>
+        <mxCell id="pair00" value="the build" style="rounded=0;whiteSpace=nowrap;html=0;fillColor=#e8f0fa;strokeColor=#1768c4;fontSize=10;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="28" width="100" height="26" />
+        </mxCell>
+        <mxCell id="pair01" value="build has" style="rounded=0;whiteSpace=nowrap;html=0;fillColor=#e8f0fa;strokeColor=#1768c4;fontSize=10;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="106" y="28" width="100" height="26" />
+        </mxCell>
+        <mxCell id="pair02" value="has two" style="rounded=0;whiteSpace=nowrap;html=0;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="212" y="28" width="100" height="26" />
+        </mxCell>
+        <mxCell id="pair03" value="two stages" style="rounded=0;whiteSpace=nowrap;html=0;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="318" y="28" width="100" height="26" />
+        </mxCell>
+        <mxCell id="title1" value="New Text" style="text;html=0;whiteSpace=nowrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="80" width="85" height="20" />
+        </mxCell>
+        <mxCell id="phrase1" value="the build has three stages" style="text;html=0;whiteSpace=nowrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=0;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="90" y="80" width="330" height="20" />
+        </mxCell>
+        <mxCell id="pair10" value="the build" style="rounded=0;whiteSpace=nowrap;html=0;fillColor=#e8f0fa;strokeColor=#1768c4;fontSize=10;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="108" width="100" height="26" />
+        </mxCell>
+        <mxCell id="pair11" value="build has" style="rounded=0;whiteSpace=nowrap;html=0;fillColor=#e8f0fa;strokeColor=#1768c4;fontSize=10;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="106" y="108" width="100" height="26" />
+        </mxCell>
+        <mxCell id="pair12" value="has three" style="rounded=0;whiteSpace=nowrap;html=0;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="212" y="108" width="100" height="26" />
+        </mxCell>
+        <mxCell id="pair13" value="three stages" style="rounded=0;whiteSpace=nowrap;html=0;fillColor=#ffffff;strokeColor=#999999;fontSize=10;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="318" y="108" width="100" height="26" />
+        </mxCell>
+        <mxCell id="score" value="2 shared pairs:  Dice = 2 × 2 / (4 + 4) = 0.5" style="text;html=0;whiteSpace=nowrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontStyle=0;fontFamily=Latin Modern Roman;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="0" y="152" width="418" height="22" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

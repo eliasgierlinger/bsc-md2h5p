@@ -1,0 +1,49 @@
+\section{Related Work}
+\label{sec:related_work}
+
+To the author's knowledge, no existing tool converts Markdown into an H5P Interactive Book.
+Three groups of existing work are related to it.
+General document converters could have been extended instead of developing a separate converter.
+Plain-text question formats that Moodle already imports offer an alternative to the question extension.
+Finally, other H5P content types could have served as the target instead of Interactive Book.
+
+\paragraph{Document Converters.}
+Pandoc~\cite{Pandoc} is a general-purpose document converter.
+It reads several Markdown dialects and writes dozens of output formats.
+A new output format for Pandoc is a writer that works on its document model, so an H5P writer could
+have built on a mature parser and a complete model of the input.
+
+For PDF input, a converter into H5P already exists.
+\code{pdf\_to\_h5p\_converter} renders every page of a PDF as an image and turns each image into a
+slide of a Course Presentation~\cite{Anandh:PdfToH5P}.
+Rendering to images would have been possible here as well and much simpler, since only images are
+emitted and the constraints on HTML and block placement do not arise.
+However, text in an image cannot be searched, selected, resized, or read by a screen reader. It cannot
+contain links or questions, and it cannot be edited in the H5P editor, which rules out the editing cycle supported by the merge feature.
+The two tools thus represent opposite choices: preserving the appearance of the source or
+preserving its structure.
+
+\paragraph{Plain-Text Question Formats.}
+If only questions are needed, Moodle can already import them from plain text.
+The GIFT format~\cite{Moodle:GIFT} describes a question and its answers in a line-based syntax with
+curly braces, and the Aiken format~\cite{Moodle:Aiken} is a stricter format for multiple-choice questions
+with lettered answers.
+In either case, the questions are imported into the question bank through Moodle's import page~\cite{Moodle:ImportQuestions}.
+The converter's own question syntax follows a similar approach but is simpler than either format.
+
+\paragraph{Other H5P Content Types.}
+Besides Interactive Book, other H5P content types could have served as the target.
+Course Presentation divides content into slides, but a slide is a fixed-size area on which every
+element is positioned absolutely.
+Text longer than a slide has to be split by hand, so a chapter of
+lecture notes does not fit this model.
+Page, by contrast, is a single column of content corresponding to one Markdown file, but a book of several files would
+become several unrelated pages without navigation between them.
+Question Set is a sequence of questions without room for text.
+Interactive Book matches the structure of a folder of Markdown files: each file becomes a chapter,
+content flows down a column instead of being positioned, and the reader gets a table of contents and
+a progress indicator.
+Its chapters also accept the layout and interactive content types needed for pseudo-tables and the
+editing cycle.
+Choosing Interactive Book determined most of the converter's constraints, since the
+accepted content types and their \code{semantics.json} define what a Text block may contain.

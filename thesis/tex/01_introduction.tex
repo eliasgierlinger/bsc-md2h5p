@@ -1,0 +1,54 @@
+\section{Introduction}
+\label{sec:introduction}
+
+H5P is an open-source framework for interactive learning content.
+An H5P content item is a
+self-contained package that a learning platform embeds into its pages, and the Moodle learning
+management system supports it out of the box: a teacher uploads a package, and students read it in
+the browser as part of the course, with nothing to install and no external site to visit.
+That
+makes H5P attractive for course material of every kind, from a page of text to a set of
+interactive questions.
+Creating H5P content, however, means working in the platform's browser-based
+editor.
+Writing more than a few pages this way is slow, and
+revising what has been written is slower still.
+
+Markdown, on the other hand, is plain text with a handful of conventions for headings,
+emphasis, lists, links, and code, so a chapter can be written in any text editor, kept in a Git
+repository, reviewed as a diff, and shared without needing a particular program.
+What Markdown lacks is a comfortable way to be read inside a course: a \code{.md} file attached to a Moodle page
+is a download, and a student who opens it sees the raw syntax unless they have a viewer.
+What is convenient to write is therefore not what is convenient to read.
+The usual answer is to port the material by hand: open the H5P editor, paste and reformat each paragraph, upload
+each image, rebuild each table.
+This is tedious and must be repeated whenever the Markdown source changes to keep the source and the H5P copy in sync.
+
+Among H5P's content types, Interactive Book is the one that best fits
+a folder of Markdown files: it presents content as a sequence of chapters with a table of
+contents, and each chapter is a list of content blocks such as text, images, and tables.
+A folder
+of Markdown files, one per chapter, maps onto it almost directly.
+
+Almost, because the two formats do not line up completely, in both directions.
+H5P has content
+types for which Markdown has no syntax, such as quizzes or image hotspots.
+Markdown, on the other
+hand, permits structures that H5P refuses: an image inside a table cell is ordinary Markdown, but H5P table blocks may not contain images.
+A converter therefore has to make compromises. The subject of this thesis is
+which compromises are possible, which were chosen, and why.
+
+The thesis makes five contributions.
+(1) It works out what Moodle's H5P implementation actually
+accepts in a text block, which HTML tags and which CSS declarations, by reading the sanitizer and
+the content-type definitions, since the documentation does not say.
+(2) For every
+Markdown construct that has no direct counterpart, it presents a rendering strategy.
+(3) It presents md2h5p, a
+converter that turns a folder of Markdown files, a Git repository, or an upload into an Interactive
+Book package and reports constructs it could only approximate as warnings.
+(4) It adds a
+small Markdown extension for single- and multiple-choice questions that leaves the source file
+valid Markdown for every other tool.
+(5) It adds a merge step that regenerates a book from changed
+Markdown without losing what was added to the previous version in the H5P editor.
